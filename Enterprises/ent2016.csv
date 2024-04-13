@@ -1,0 +1,71 @@
+code ,park,ent15,ent16,var
+DOM-AND,andrés,1,1,0
+DOM-BAN,baní,7,7,0
+DOM-BAR,barahona,1,1,0
+DOM-VIS,bella vista,1,1,0
+DOM-BON,bonao,3,3,0
+DOM-CIP,caribbean industrial park,29,30,1
+DOM-CHE,chemtec,9,7,-2
+DOM-CIB,cibernético,5,6,1
+DOM-CON,conacado industrial park,1,1,0
+DOM-DOS,dos rios,1,1,0
+DOM-LIM,el limonal,5,5,0
+DOM-SEI,el seibo,2,2,0
+DOM-ESP,esperanza,6,6,0
+DOM-EXC,excel boca chica,1,1,0
+DOM-GLO,global zona franca industrial,2,2,0
+DOM-GUR,gurabo,8,7,-1
+DOM-HAI,hainamosa,7,5,-2
+DOM-HAT,hato mayor,1,1,0
+DOM-HAN,hato nuevo,5,5,0
+DOM-TAL,intercontinental,1,2,1
+DOM-INT,interexport free zone,1,1,0
+DOM-ARM,la armería,8,9,1
+DOM-HIP,la herradura industrial park,1,1,0
+DOM-HIS,la hispaniola,1,1,0
+DOM-PAL,la palma,5,5,0
+DOM-ROM,la romana i,7,6,-1
+DOM-RII,la romana ii,5,4,-1
+DOM-VEG,la vega,17,17,0
+DOM-LAS,las américas,25,26,1
+DOM-ALC,los alcarrizos,10,11,1
+DOM-RIE,los rieles,1,1,0
+DOM-ROB,los robles,1,0,-1
+DOM-MOC,moca,8,9,1
+DOM-MUL,multimodal caucedo,4,4,0
+DOM-MUT,multiparques,2,2,0
+DOM-NAV,navarrete,4,6,2
+DOM-NIG,nigua,6,7,1
+DOM-PAB,palmar abajo,1,1,0
+DOM-PAM,palmarejo,5,5,0
+DOM-SUN,parque industrial zona franca sunsea,0,1,1
+DOM-CDF,parque industrial cdf,1,1,0
+DOM-CTQ,zona franca industrial ctq,2,2,0
+DOM-INE,parque industrial inetab,0,2,2
+DOM-KGC,parque industrial kg compañía comercial,1,1,0
+DOM-YAQ,parque industrial y de servicios yaque,2,2,0
+DOM-SLI,parque tecnológico de santiago,8,9,1
+DOM-HER,parque z.f. tecnológica de herrera,2,2,0
+DOM-PED,pedernales,1,1,0
+DOM-PER,perlav,3,3,0
+DOM-PIS,pisano,28,27,-1
+DOM-PUE,puerto plata,9,10,1
+DOM-QUI,quisqueya,1,1,0
+DOM-CRI,san cristóbal (itabo),42,39,-3
+DOM-FRA,san francisco de macorís,2,2,0
+DOM-ISI,san isidro,33,32,-1
+DOM-MAC,san pedro de macorís,41,40,-1
+DOM-S12,santiago,75,77,2
+DOM-JAN,santiago - jánico,3,3,0
+DOM-TAM,tamboril,10,11,1
+DOM-ALT,villa altagracia,4,4,0
+DOM-MEL,villa mella,6,6,0
+DOM-INF,z.f. ind. y de servicios norte infiesto,1,1,0
+DOM-MAI,zona franca bahía de maimón,2,2,0
+DOM-6NO,zona franca industrial 6 de noviembre,0,1,1
+DOM-NOR,zona franca industrial del norte,0,2,2
+DOM-SUR,zona franca industrial del sur,1,1,0
+DOM-EMI,zona franca inustrial. emimar,5,5,0
+DOM-SAG,zona franca industrial sag,1,1,0
+DOM-JOB,zona franca jobo industrial,2,2,0
+DOM-ZFE,zonas francas especiales,136,144,8

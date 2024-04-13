@@ -1,0 +1,61 @@
+code ,park,ent05,ent06,absolute variation
+DOM-BAN,baní,10,8,-2
+DOM-BAR,barahona,2,2,0
+DOM-BAY,bayaguana,1,1,0
+DOM-VIS,bella vista,2,2,0
+DOM-BON,bonao,8,8,0
+DOM-CIP,caribbean ind. park,15,16,1
+DOM-CIB,cibernético,2,2,0
+DOM-COT,cotuí,3,1,-2
+DOM-CHE,chemtec,9,9,0
+DOM-DPE,don pedro,3,3,0
+DOM-DOS,dos rios,0,1,1
+DOM-LIM,el limonal,3,3,0
+DOM-SEI,el seibo,2,2,0
+DOM-ESP,esperanza,9,6,-3
+DOM-EXC,excel boca chica,4,4,0
+DOM-GLO,global,1,1,0
+DOM-GUR,gurabo,6,6,0
+DOM-HAI,hainamosa,9,10,1
+DOM-HAT,hato mayor,2,2,0
+DOM-HAN,hato nuevo,2,2,0
+DOM-HIG,higüey,1,0,-1
+DOM-CRI,itabo,34,35,1
+DOM-JAI,jaibón,1,1,0
+DOM-ARM,la armería,10,9,-1
+DOM-CAN,la canela,1,0,-1
+DOM-HIS,la hispaniola,1,1,0
+DOM-PAL,la palma,2,4,2
+DOM-ROM,la romana i,8,9,1
+DOM-RII,la romana ii,4,4,0
+DOM-VEG,la vega,21,27,6
+DOM-LAG,laguna prieta,1,1,0
+DOM-LAS,las américas,23,22,-1
+DOM-ALC,los alcarrizos,14,14,0
+DOM-MIN,los mina,2,2,0
+DOM-MOC,moca,8,9,1
+DOM-MOI,montecristi,1,0,-1
+DOM-MUL,multimodal caucedo,3,2,-1
+DOM-NAV,navarrete,2,2,0
+DOM-NIG,nigua,8,12,4
+DOM-PAB,palmar abajo,1,1,0
+DOM-PAM,palmarejo,5,5,0
+DOM-PED,pedernales,1,1,0
+DOM-PIS,pisano,34,34,0
+DOM-PON,pontezuela,1,1,0
+DOM-PUE,puerto plata,9,8,-1
+DOM-QUI,quisqueya,0,1,1
+DOM-KEP,silver key park,2,1,-1
+DOM-SAL,salcedo,3,2,-1
+DOM-FRA,san fco. de macorís,4,4,0
+DOM-ISI,san isidro,42,35,-7
+DOM-MAC,san pedro de macorís,53,42,-11
+DOM-S12,santiago,77,74,-3
+DOM-JAN,santiago - jánico,3,3,0
+DOM-SLI,santiago - licey,11,7,-4
+DOM-TAM,tamboril,5,4,-1
+DOM-ALT,villa altagracia,4,7,3
+DOM-MEL,villa mella,4,5,1
+DOM-ZOF,zofinma (mao),1,1,0
+DOM-LUN,zona franca ind. luna,2,1,-1
+DOM-ZFE,zonas francas especiales,56,75,19

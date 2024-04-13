@@ -1,0 +1,52 @@
+code ,park,ent09,ent10,absolute variation
+DOM-AND,andrés,1,1,0
+DOM-BAN,baní,5,6,1
+DOM-BAR,barahona,1,1,0
+DOM-VIS,bella vista,1,1,0
+DOM-BON,bonao,4,3,-1
+DOM-CIP,caribbean ind. park,15,18,3
+DOM-CIB,cibernético,9,8,-1
+DOM-COT,cotuí,1,0,-1
+DOM-CHE,chemtec,5,6,1
+DOM-DOS,dos rios,1,1,0
+DOM-LIM,el limonal,2,2,0
+DOM-SEI,el seibo,1,1,0
+DOM-ESP,esperanza,8,8,0
+DOM-EXC,excel boca chica,2,2,0
+DOM-GUR,gurabo,6,7,1
+DOM-HAI,hainamosa,8,7,-1
+DOM-HAN,hato nuevo,4,5,1
+DOM-CRI,san cristóbal (itabo),37,36,-1
+DOM-INT,interexport free zone,0,1,1
+DOM-ARM,la armería,7,5,-2
+DOM-HIS,la hispaniola,1,1,0
+DOM-PAL,la palma,4,5,1
+DOM-ROM,la romana i,7,6,-1
+DOM-RII,la romana ii,3,3,0
+DOM-VEG,la vega,19,23,4
+DOM-LAS,las américas,22,21,-1
+DOM-ALC,los alcarrizos,15,14,-1
+DOM-MIN,losmina,1,0,-1
+DOM-MOC,moca,8,8,0
+DOM-MUT,multiparques,2,2,0
+DOM-MUL,multimodal caucedo,2,3,1
+DOM-NAV,navarrete,2,2,0
+DOM-NIG,nigua,10,9,-1
+DOM-PAB,palmar abajo,1,1,0
+DOM-PAM,palmarejo,6,5,-1
+DOM-PED,pedernales,1,1,0
+DOM-PER,perlav,0,2,2
+DOM-PIS,pisano,28,24,-4
+DOM-PUE,puerto plata,10,7,-3
+DOM-SAL,salcedo,2,1,-1
+DOM-FRA,san fco. de macorís,1,1,0
+DOM-ISI,san isidro,37,39,2
+DOM-MAC,san pedro de macorís,43,38,-5
+DOM-S12,santiago,69,67,-2
+DOM-JAN,santiago - jánico,2,2,0
+DOM-YAQ,parque ind. y de servicios yaque,0,1,1
+DOM-SLI,parque tecnológico de santiago,8,8,0
+DOM-TAM,tamboril,5,8,3
+DOM-ALT,villa altagracia,7,7,0
+DOM-MEL,villa mella,5,5,0
+DOM-ZFE,zonas francas especiales,114,122,8

@@ -1,0 +1,53 @@
+code,park,ent00,ent01,variation
+DOM-AZU,Azua,0,1,100
+DOM-BAN,Baní,11,11,0
+DOM-BAR,Barahona,3,3,0
+DOM-BAY,Bayaguana,1,2,100
+DOM-BON,Bonao,9,7,-22
+DOM-CIP,Caribbean Ind. Park,15,14,-7
+DOM-CIB,Cibernético,0,1,100
+DOM-COT,Cotuí,3,3,0
+DOM-CHE,Chemtec,12,10,-17
+DOM-SEI,El Seibo,1,1,0
+DOM-ESP,Esperanza,10,9,-10
+DOM-EXC,Excel Boca Chica,2,2,0
+DOM-GLO,Global,3,3,0
+DOM-GUR,Gurabo,3,3,0
+DOM-HAI,Hainamosa,11,12,9
+DOM-HAT,Hato Mayor,3,2,-33
+DOM-HAN,Hato Nuevo,0,1,100
+DOM-HIG,Higuey,3,3,0
+DOM-CRI,Itabo,19,23,21
+DOM-JAI,Jaibón,1,1,0
+DOM-ARM,La Armería,10,9,-10
+DOM-ROM,La Romana I,20,19,-5
+DOM-RII,La Romana II,6,6,0
+DOM-VEG,La Vega,30,28,-7
+DOM-LAG,Laguna Prieta,1,1,0
+DOM-LAS,Las Américas,19,20,5
+DOM-ALC,Los Alcarrizos,19,17,-11
+DOM-MIN,Los Minas,1,1,0
+DOM-MOI,Montecristi,0,1,100
+DOM-MOC,Moca,12,12,0
+DOM-NAV,Navarrete,4,2,-50
+DOM-NIG,Nigua,13,16,23
+DOM-PAB,Palmar Abajo,2,1,-50
+DOM-PAM,Palmarejo,3,3,0
+DOM-PED,Pedernales,1,1,0
+DOM-PIS,PISANO,15,26,73
+DOM-PON,Pontezuela,1,1,0
+DOM-PUE,Puerto Plata,10,11,10
+DOM-SAL,Salcedo,1,1,0
+DOM-FRA,San Fco. de Macorís,5,6,20
+DOM-ISI,San Isidro,26,36,38
+DOM-MAC,San Pedro de Macorís,51,54,6
+DOM-S12,Santiago I y II,77,79,3
+DOM-JAN,Santiago Jánico,2,3,50
+DOM-SLI,Santiago Licey,7,7,0
+DOM-TAM,Tamboril,1,1,0
+DOM-ALT,Villa Altagracia,2,2,0
+DOM-MEL,Villa Mella,2,2,0
+DOM-ZOF,Zofinma (Mao),1,1,0
+DOM-LUN,Zona Franca Industrial Luna,0,1,100
+DOM-QUI,Zona Franca Industrial Quisqueya,0,1,100
+DOM-ZFE,Z.F. Especiales,27,31,15
