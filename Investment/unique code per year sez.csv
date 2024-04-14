@@ -1,0 +1,102 @@
+2000,start,end,,code,code,2001
+Baní,1986,,private, DOM-BAN, DOM-AZU,Azua
+Barahona,1989,,public, DOM-BAR, DOM-BAN,Baní
+Bayaguana,1999,,public,DOM-BAY, DOM-BAR,Barahona
+Bonao,1988,,public, DOM-BON,DOM-BAY,Bayaguana
+Caribbean Ind. Park,1997,,private, DOM-CIP, DOM-BON,Bonao
+Chemtec Enterprises,1988,,private, DOM-CHE, DOM-CIP,Caribbean Ind. Park
+Cotuy,1990,,public,DOM-COT, DOM-CHE,Chemtec Enterprises
+Esperanza,1988,,public, DOM-ESP, DOM-CIB,Cibernético
+Excel Boca Chica,1995,,private, DOM-EXC,DOM-COT,Cotui
+Global,1995,,private, DOM-GLO, DOM-ESP,Esperanza
+Gurabo,1993,,private, DOM-GUR, DOM-EXC,Excel Boca Chica
+Hainamosa,1988,,private, DOM-HAI, DOM-SEI,El Seibo
+Hato Mayor,1990,,public, DOM-HAT, DOM-GLO,Global
+Higuey,1990,,public,DOM-HIG, DOM-GUR,Gurabo
+Itabo,1986,,private, DOM-CRI, DOM-HAI,Hainamosa
+Jaibón,2000,,public,DOM-JAI, DOM-HAT,Hato Mayor
+La Armería,1990,,public, DOM-ARM, DOM-HAN,Hato Nuevo
+La Romana I,1969,,private, DOM-ROM,DOM-HIG,Higuey
+La Romana II,1987,,private, DOM-RII, DOM-CRI,Itabo
+La Vega,1987,,public, DOM-VEG,DOM-JAI,Jaibón
+Laguna Prieta,1997,,private,DOM-LAG, DOM-ARM,La Armería
+Las Américas,1989,,private, DOM-LAS, DOM-ROM,La Romana I
+Los Alcarrizos,1990,,public, DOM-ALC, DOM-RII,La Romana II
+Los Minas,2000,,public,DOM-MIN, DOM-VEG,La Vega
+Moca,1989,,public, DOM-MOC,DOM-LAG,Laguna Prieta
+Navarrete,1996,,private, DOM-NAV, DOM-LAS,Las Américas
+Nigua,1989,,private, DOM-NIG, DOM-ALC,Los Alcarrizos
+Palmar Abajo,1996,,private, DOM-PAB,DOM-MIN,Los Minas
+Palmarejo,1997,,private, DOM-PAM,DOM-LUN,Luna
+P. Ind. Haina,1994,2001,private,DOM-IHA, DOM-MOI,Montecristi
+Pedernales,1991,,public, DOM-PED, DOM-MOC,Moca
+PISANO,1993,,private, DOM-PIS, DOM-NAV,Navarrete
+Pontezuela,1997,,private,DOM-PON, DOM-NIG,Nigua
+Puerto Plata,1983,,mix, DOM-PUE, DOM-PAB,Palmar Abajo
+Salcedo,1999,,public,DOM-SAL, DOM-PAM,Palmarejo
+San Fco. de Macorís,1990,,public, DOM-FRA, DOM-PED,Pedernales
+San Isidro,1986,,private, DOM-ISI, DOM-PIS,PISANO
+San Pedro de Macorís,1973,,public, DOM-MAC,DOM-PON,Pontezuela
+Santiago I y II,1974,,mix,DOM-S12, DOM-PUE,Puerto Plata
+Santiago - Licey,1993,,private,DOM-SLI,DOM-QUI,Quisqueya
+Santiago - Jánico,1997,,private,DOM-JAN,DOM-SAL,Salcedo
+Tamboril,1997,,private, DOM-TAM, DOM-FRA,San Fco. de Macorís
+Villa Mella,1989,,public, DOM-MEL, DOM-ISI,San Isidro
+Villa Artagracia,1988,,private, DOM-ALT, DOM-MAC,San Pedro de Macorís
+Zofinma (Mao),1993,,private,DOM-ZOF,DOM-S12,Santiago I y II
+Zonas Francas Especiales,,,na,DOM-ZFE,DOM-SLI,Santiago - Licey
+El Seibo,2000,,public, DOM-SEI,DOM-JAN,Santiago - Jánico
+Azua,2001,,public, DOM-AZU, DOM-TAM,Tamboril
+Cibernético,2001,,mix, DOM-CIB, DOM-MEL,Villa Mella
+Hato Nuevo,2001,,public, DOM-HAN, DOM-ALT,Villa Artagracia
+Luna,2001,,private,DOM-LUN,DOM-ZOF,Zofinma (Mao)
+Montecristi,2001,,public, DOM-MOI,DOM-ZFE,Zonas Francas Especiales
+Quisqueya,2001,,public,DOM-QUI,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,f,,
