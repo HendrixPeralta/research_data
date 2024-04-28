@@ -1,0 +1,60 @@
+code,name.x,longitude,latitude,year,type
+DOM-ROM,La Romana I ,18.41862181,-68.9476164,1969,private
+DOM-MAC,San Pedro de Macorís ,18.45274371,-69.28915784,1973,public
+DOM-S12,Santiago ,19.47670339,-70.72489004,1974,mix
+DOM-PUE,Puerto Plata ,19.80291323,-70.72350803,1983,mix
+DOM-BAN,Baní ,18.25315476,-70.40511741,1986,private
+DOM-CRI,San Cristóbal (Itabo) ,18.38627302,-70.04084591,1986,private
+DOM-ISI,San Isidro ,18.50033327,-69.7873092,1986,private
+DOM-RII,La Romana II ,18.44349389,-68.97852859,1987,private
+DOM-VEG,La Vega ,19.24673204,-70.55649026,1987,public
+DOM-ALT,Villa Altagracia ,18.68704785,-70.18063175,1988,private
+DOM-BON,Bonao ,18.92425177,-70.40416473,1988,public
+DOM-CHE,Chemtec ,18.45851329,-69.28651371,1988,private
+DOM-ESP,Esperanza ,19.59381238,-70.97901224,1988,public
+DOM-HAI,Hainamosa ,18.51389836,-69.81584618,1988,private
+DOM-BAR,Barahona ,18.22153648,-71.10145235,1989,public
+DOM-LAS,Las Américas ,18.46024249,-69.7068226,1989,private
+DOM-MEL,Villa Mella ,18.522265,-69.90166418,1989,public
+DOM-MOC,Moca  ,19.39023321,-70.5372859,1989,public
+DOM-NIG,Nigua ,18.39069362,-70.04615509,1989,private
+DOM-ALC,Los Alcarrizos ,18.52119218,-70.05086541,1990,public
+DOM-ARM,La Armería ,18.42129421,-70.11766012,1990,public
+DOM-FRA,San Francisco de Macorís ,19.27537126,-70.28770858,1990,public
+DOM-HAT,Hato Mayor ,18.76258519,-69.26597733,1990,public
+DOM-PED,Pedernales ,18.03212506,-71.7361763,1991,public
+DOM-GUR,Gurabo ,19.48857084,-70.658343,1993,private
+DOM-PIS,Santiago-Navarrete (PISANO) ,19.50852054,-70.75994998,1993,private
+DOM-SLI,Parque Tecnológico de Santiago ,19.4462542,-70.639953,1993,private
+DOM-EXC,Excel Boca Chica ,18.45806505,-69.63004786,1995,private
+DOM-GLO,Global Zona Franca Ind. ,18.53043559,-70.01195079,1995,private
+DOM-NAV,Navarrete ,19.56817155,-70.87355309,1996,private
+DOM-CIP,Caribbean Industrial Park ,19.410116,-70.661171,1997,private
+DOM-ECO,Ecopark Industrial Free Zone ,19.43705956,-70.70483542,1997,private
+DOM-PAM,Palmarejo ,19.53965534,-70.79354494,1997,private
+DOM-TAM,Tamboril ,19.48142597,-70.63333181,1997,private
+DOM-SEI,El Seibo ,18.76891317,-69.05392215,2000,public
+DOM-CIB,Cibernético ,18.45320537,-69.66257273,2001,mix
+DOM-HAN,Hato Nuevo ,18.53692314,-70.06254185,2001,public
+DOM-MUL,Multimodal Caucedo ,18.42636819,-69.63506753,2002,private
+DOM-PAL,La Palma ,19.47951791,-70.59727463,2004,private
+DOM-VIS,Bella Vista ,18.61321459,-69.70844704,2004,private
+DOM-HIS,La Hispaniola  ,18.92390206,-70.40485331,2005,private
+DOM-LIM,El Limonal ,19.44195379,-70.63858151,2005,private
+DOM-DOS,Dos Ríos  ,18.91241012,-70.37486281,2006,private
+DOM-AND,Andrés ,18.44233642,-69.64978048,2009,private
+DOM-INT,Interexport Free Zone ,18.21182991,-71.11042584,2010,private
+DOM-CON,Conacado Industrial Park ,19.32373849,-70.27604128,2013,private
+DOM-HER,Parque Z.F. Tecnológica de Herrera ,18.44047267,-69.9817525,2013,private
+DOM-EMI,Zona Franca Industrial Emimar ,19.42494677,-70.62298095,2014,private
+DOM-INF,ZF Ind. y de Servicios Norte Infiesto ,18.49179288,-69.98528116,2014,private
+DOM-CTQ,Parque Industrial CTQ ,19.42740185,-70.5940585,2015,private
+DOM-HIP,La Herradura Industrial Park  ,19.45074236,-70.74300157,2015,private
+DOM-TAL,Intercontinental ,18.56054395,-70.07035003,2015,private
+DOM-6NO,Zona Franca 6 de Noviembre ,18.43423576,-70.07709655,2016,private
+DOM-INE,Parque Industrial INETAB ,19.48954984,-70.72195582,2016,private
+DOM-CAD,Los Candelones ,19.55066181,-70.85609369,2017,private
+DOM-LEO,Parque Industrial Eduardo León Jiménes ,19.46227703,-70.671318,2018,private
+DOM-FLO,La Flor Dominicana ,19.48619912,-70.62006966,2019,private
+DOM-VER,Luperón Verde ,19.79325036,-70.68090459,2019,private
+DOM-ZFE,Zona Franca Mao Zofinma ,19.5537545,-71.09166028,NA,na

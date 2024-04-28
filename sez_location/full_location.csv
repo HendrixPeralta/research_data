@@ -1,0 +1,107 @@
+P. Ind. Haina,1994,2001,private,DOM-IHA,code,name,enterprises ,region ,longitude,latitude
+Azua,2001,2005,public,DOM-AZU,DOM-AND,Andrés ,2,D.N & S.D,18.44233642,-69.64978048
+Don Rafael,2002,2005,private,DOM-RAF,DOM-BAN,Baní ,4,South,18.25315476,-70.40511741
+Higuey,1990,2006,public,DOM-HIG,DOM-BAR,Barahona ,4,South,18.22153648,-71.10145235
+La Canela,2003,2006,private,DOM-CAN,DOM-VIS,Bella Vista ,1,D.N & S.D,18.61321459,-69.70844704
+Montecristi,2001,2006,public,DOM-MOI,DOM-BON,Bonao ,5,North,18.92425177,-70.40416473
+PEVISA,2004,2006,private,DOM-PEV,DOM-CIP,Caribbean Industrial Park ,33,North,19.410116,-70.661171
+Silver Key Park,2005,2007,private,DOM-KEP,DOM-CHE,Chemtec ,10,East,18.45851329,-69.28651371
+Zofinma (Mao),1993,2007,private,DOM-ZOF,DOM-CIB,Cibernético ,8,D.N & S.D,18.45320537,-69.66257273
+Bayaguana,1999,2008,public,DOM-BAY,DOM-CON,Conacado Industrial Park ,2,North,19.32373849,-70.27604128
+Don Pedro,2004,2008,private,DOM-DPE,DOM-DOS,Dos Ríos  ,1,North,18.91241012,-70.37486281
+Laguna Prieta,1997,2008,private,DOM-LAG,DOM-ECO,Ecopark Industrial Free Zone ,3,North,19.43705956,-70.70483542
+Zona Franca Ind. Luna,2001,2008,private,DOM-LUN,DOM-LIM,El Limonal ,5,North,19.44195379,-70.63858151
+Cotui,1990,2010,public,DOM-COT,DOM-SEI,El Seibo ,2,East,18.76891317,-69.05392215
+Los Minas,2000,2010,public,DOM-MIN,DOM-ESP,Esperanza ,5,North,19.59381238,-70.97901224
+Jaibón,2000,2014,public,DOM-JAI,DOM-EXC,Excel Boca Chica ,1,D.N & S.D,18.45806505,-69.63004786
+Salcedo,1999,2015,public,DOM-SAL,DOM-GLO,Global Zona Franca Ind. ,2,D.N & S.D,18.53043559,-70.01195079
+Los Robles,2013,9999,private,DOM-ROB,DOM-GUR,Gurabo ,14,North,19.48857084,-70.658343
+Palmar Abajo,1996,9999,private,DOM-PAB,DOM-HAI,Hainamosa ,3,D.N & S.D,18.51389836,-69.81584618
+Pontezuela,1997,9999,private,DOM-PON,DOM-HAT,Hato Mayor ,1,East,18.76258519,-69.26597733
+Andres,2009,,private,DOM-AND,DOM-HAN,Hato Nuevo ,4,D.N & S.D,18.53692314,-70.06254185
+Baní,1986,,private,DOM-BAN,DOM-TAL,Intercontinental ,2,D.N & S.D,18.56054395,-70.07035003
+Barahona,1989,,public,DOM-BAR,DOM-INT,Interexport Free Zone ,1,South,18.21182991,-71.11042584
+Bella Vista,2004,,private,DOM-VIS,DOM-ARM,La Armería ,6,South,18.42129421,-70.11766012
+Bonao,1988,,public,DOM-BON,DOM-FLO,La Flor Dominicana ,1,North,19.48619912,-70.62006966
+Caribbean Ind. Park,1997,,private,DOM-CIP,DOM-HIP,La Herradura Industrial Park  ,1,North,19.45074236,-70.74300157
+Chemtec Enterprises,1988,,private,DOM-CHE,DOM-HIS,La Hispaniola  ,1,North,18.92390206,-70.40485331
+Cibernético,2001,,mix,DOM-CIB,,La Hispaniola Free Zone Park ,1,D.N & S.D,18.54219827,-69.7268343
+Conacado Ind. Park,2013,,private,DOM-CON,DOM-PAL,La Palma ,10,North,19.47951791,-70.59727463
+Dos Ríos,2006,,private,DOM-DOS,DOM-ROM,La Romana I ,4,East,18.41862181,-68.9476164
+Ecopark Industrial Free Zone,1997,,private,DOM-ECO,DOM-RII,La Romana II ,6,East,18.44349389,-68.97852859
+El Limonal,2005,,private,DOM-LIM,DOM-VEG,La Vega ,19,North,19.24673204,-70.55649026
+El Seibo,2000,,public,DOM-SEI,DOM-LAS,Las Américas ,31,D.N & S.D,18.46024249,-69.7068226
+Esperanza,1988,,public,DOM-ESP,DOM-ALC,Los Alcarrizos ,9,D.N & S.D,18.52119218,-70.05086541
+Excel Boca Chica,1995,,private,DOM-EXC,DOM-CAD,Los Candelones ,6,North,19.55066181,-70.85609369
+Global,1995,,private,DOM-GLO,DOM-RIE,Los Rieles ,4,North,,
+Gurabo,1993,,private,DOM-GUR,DOM-VER,Luperón Verde ,1,North,19.79325036,-70.68090459
+Hainamosa,1988,,private,DOM-HAI,DOM-MOC,Moca  ,8,North,19.39023321,-70.5372859
+Hato Mayor,1990,,public,DOM-HAT,DOM-MUL,Multimodal Caucedo ,10,D.N & S.D,18.42636819,-69.63506753
+Hato Nuevo,2001,,public,DOM-HAN,DOM-MUT,Multiparques ,2,South,,
+Intercontinental,2015,,private,DOM-TAL,DOM-NAV,Navarrete ,12,North,19.56817155,-70.87355309
+Interexport Free Zone,2010,,private,DOM-INT,DOM-NIG,Nigua ,10,South,18.39069362,-70.04615509
+La Armería,1990,,public,DOM-ARM,DOM-NII,Nigua II ,1,South,,
+La Flor Dominicana,2019,,private,DOM-FLO,DOM-PAB,Palmar Abajo ,1,North,,
+La Herradura Industrial Park,2015,,private,DOM-HIP,DOM-PAM,Palmarejo ,5,North,19.53965534,-70.79354494
+La Hisponiola,2005,,private,DOM-HIS,DOM-CDF,Parque Industrial CDF ,1,North,,
+La Palma,2004,,private,DOM-PAL,DOM-CTQ,Parque Industrial CTQ ,2,North,19.42740185,-70.5940585
+La Romana I,1969,,private,DOM-ROM,DOM-LEO,Parque Industrial Eduardo León Jiménes ,6,North,19.46227703,-70.671318
+La Romana II,1987,,private,DOM-RII,DOM-ELV,Parque Industrial Elva María  ,3,North,,
+La Vega,1987,,public,DOM-VEG,DOM-INE,Parque Industrial INETAB ,3,North,19.48954984,-70.72195582
+Las Américas,1989,,private,DOM-LAS,DOM-KGC,Parque Industrial KG Compañía Comercial ,1,North,,
+Los Alcarrizos,1990,,public,DOM-ALC,DOM-YAQ,Parque Industrial y de Servicios Yaque  ,2,North,,
+Los Candelones,2017,,private,DOM-CAD,DOM-SLI,Parque Tecnológico de Santiago ,11,North,19.4462542,-70.639953
+Los Rieles,2013,,private,DOM-RIE,DOM-HER,Parque Z.F. Tecnológica de Herrera ,3,D.N & S.D,18.44047267,-69.9817525
+Moca,1989,,public,DOM-MOC,DOM-PED,Pedernales ,1,South,18.03212506,-71.7361763
+Multimodal Caucedo,2002,,private,DOM-MUL,DOM-PER,PERLAV ,3,D.N & S.D,,
+Multiparques,2007,,private,DOM-MUT,DOM-PUE,Puerto Plata ,9,North,19.80291323,-70.72350803
+Navarrete,1996,,private,DOM-NAV,DOM-CRI,San Cristóbal (Itabo) ,35,South,18.38627302,-70.04084591
+Nigua,1989,,private,DOM-NIG,DOM-FRA,San Francisco de Macorís ,2,North,19.27537126,-70.28770858
+Nigua II,2018,,private,DOM-NII,DOM-ISI,San Isidro ,35,D.N & S.D,18.50033327,-69.7873092
+Palmarejo,1997,,private,DOM-PAM,DOM-MAC,San Pedro de Macorís ,41,East,18.45274371,-69.28915784
+Parque Ind. Eduardo León Jiménes,2018,,private,DOM-LEO,DOM-S12,Santiago ,67,North,19.47670339,-70.72489004
+Parque Ind. KG Compañía Comercial,2014,,private,DOM-KGC,DOM-PIS,Santiago-Navarrete (PISANO) ,31,North,19.50852054,-70.75994998
+Parque Industrial CDF,2014,,private,DOM-CDF,DOM-TAM,Tamboril ,15,North,19.48142597,-70.63333181
+Parque Industrial CTQ,2015,,private,DOM-CTQ,DOM-ALT,Villa Altagracia ,3,South,18.68704785,-70.18063175
+Parque Industrial Elva María,2017,,private,DOM-ELV,DOM-MEL,Villa Mella ,5,D.N & S.D,18.522265,-69.90166418
+Parque Industrial INETAB,2016,,private,DOM-INE,,Z.F.E. - Azua ,1,South,18.44969044,-70.79846284
+Parque Industrial y de Servicios Yaque,2010,,private,DOM-YAQ,,Z.F.E. - Barahona ,1,South,18.22108723,-71.10144191
+Parque Tecnológico de Santiago,1993,,private,DOM-SLI,,Z.F.E. - Distrito Nacional ,19,D.N & S.D,,
+Parque Z.F. Ind. Tecnológica de Herrera,2013,,private,DOM-HER,,Z.F.E. - Duarte ,2,North,,
+Pedernales,1991,,public,DOM-PED,,Z.F.E. - EL Seibo ,1,East,18.76885459,-69.05393205
+PERLAV,2010,,private,DOM-PER,,Z.F.E. - Espaillat ,5,North,19.47633823,-70.73259113
+PISANO,1993,,private,DOM-PIS,,Z.F.E. - Independencia ,1,South,,
+Puerto Plata,1983,,mix,DOM-PUE,,Z.F.E. - La Altagracia ,5,East,,
+Quisqueya,2001,,public,DOM-QUI,,Z.F.E. - La Romana ,5,East,,
+San Cristóbal (Itabo),1986,,private,DOM-CRI,,Z.F.E. - La Vega  ,9,North,,
+San Fco. de Macorís,1990,,public,DOM-FRA,,Z.F.E. - María Trinidad Sánchez ,2,North,,
+San Isidro,1986,,private,DOM-ISI,,Z.F.E. - Monte Plata ,2,East,,
+San Pedro de Macorís,1973,,public,DOM-MAC,,Z.F.E. - Montecristi ,2,North,,
+Santiago - Jánico,1997,,private,DOM-JAN,,Z.F.E. - Peravia ,4,South,,
+Santiago I y II,1974,,mix,DOM-S12,,Z.F.E. - Puerto Plata  ,2,North,,
+Tamboril,1997,,private,DOM-TAM,,Z.F.E. - Samaná  ,2,North,,
+Villa Artagracia,1988,,private,DOM-ALT,,Z.F.E. - San Cristóbal ,12,South,,
+Villa Mella,1989,,public,DOM-MEL,,Z.F.E. - San José de Ocoa ,3,South,,
+ZF. Ind. y de Servicios Norte Infiesto,2014,,private,DOM-INF,,Z.F.E. - San Juan de la Maguana ,2,South,,
+Zona Franca 6 de Noviembre,2016,,private,DOM-6NO,,Z.F.E. - San Pedro de Macorís ,2,East,,
+Zona Franca Bahía de Maimón,2015,,private,DOM-MAI,,Z.F.E. - Santiago ,25,North,,
+Zona Franca Hit,2018,,private,DOM-HIT,,Z.F.E. - Santo Domingo ,15,D.N & S.D,,
+Zona Franca Ind. Del Sur,2014,,private,DOM-SUR,,Z.F.E. - Valverde  ,1,North,,
+Zona Franca Ind. Emimar,2014,,private,DOM-EMI,,Z.F.S. - Distrito Nacional ,28,D.N & S.D,,
+Zona Franca Ind. Luperon Verde,2019,,private,DOM-VER,,Z.F.S. - La Altagracia ,2,East,,
+Zona Franca Ind. SAG,2012,,private,DOM-SAG,,Z.F.S. - Santiago ,12,North,,
+Zona Franca Industrial del Norte,2016,,private,DOM-NOR,,Z.F.S. - Santo Domingo ,2,D.N & S.D,,
+Zona Franca Industrial Riosur,2017,,private,DOM-RIO,DOM-INF,ZF Ind. y de Servicios Norte Infiesto ,1,D.N & S.D,18.49179288,-69.98528116
+Zona Franca Jobo Industrial,2015,,private,DOM-JOB,DOM-6NO,Zona Franca 6 de Noviembre ,1,South,18.43423576,-70.07709655
+Zonas Francas Especiales,,,na,DOM-ZFE,DOM-MAI,Zona Franca Bahía de Maimón ,2,North,,
+,,,,,,Zona Franca Boca de Mao  ,1,North,,
+,,,,,,Zona Franca Industrial Avocado Acre ,1,D.N & S.D,,
+,,,,,DOM-NOR,Zona Franca Industrial del Norte ,5,North,,
+,,,,,DOM-SUR,Zona Franca Industrial del Sur ,1,South,,
+,,,,,DOM-EMI,Zona Franca Industrial Emimar ,5,North,19.42494677,-70.62298095
+,,,,,DOM-HIT,Zona Franca Industrial HIT ,2,South,,
+,,,,,DOM-RIO,Zona Franca Industrial Riosur ,1,D.N & S.D,,
+,,,,,DOM-SAG,Zona Franca Industrial SAG ,1,North,,
+,,,,,,Zona Franca Industrial Salcedo ,1,North,,
+,,,,,DOM-JOB,Zona Franca Jobo Industrial ,3,North,,
+,,,,,DOM-ZFE,Zona Franca Mao Zofinma ,1,North,19.5537545,-71.09166028
