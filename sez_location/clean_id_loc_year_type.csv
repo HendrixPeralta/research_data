@@ -1,97 +1,97 @@
-code,name.x,latitude,longitude,year,close,type,sez_id
-DOM-PED,Pedernales ,18.03212506,-71.7361763,1991,0,public,0
-DOM-INT,Interexport Free Zone ,18.21182991,-71.11042584,2010,0,private,1
-DOM-BAR,Barahona ,18.22153648,-71.10145235,1989,0,public,2
-DOM-ZOF,Zofinma (Mao),19.5539567,-71.09162809,1993,2006,private,3
-DOM-ESP,Esperanza ,19.59381238,-70.97901224,1988,0,public,4
-DOM-NAV,Navarrete ,19.56817155,-70.87355309,1996,0,private,5
-DOM-CAD,Los Candelones ,19.55066181,-70.85609369,2017,0,private,6
-DOM-PAM,Palmarejo ,19.53965534,-70.79354494,1997,0,private,7
-DOM-PIS,Santiago-Navarrete (PISANO) ,19.50852054,-70.75994998,1993,0,private,8
-DOM-HIP,La Herradura Industrial Park  ,19.45074236,-70.74300157,2015,0,private,9
-DOM-S12,Santiago ,19.47670339,-70.72489004,1974,0,mix,10
-DOM-PUE,Puerto Plata ,19.80291323,-70.72350803,1983,0,mix,11
-DOM-INE,Parque Industrial INETAB ,19.48954984,-70.72195582,2016,0,private,12
-DOM-YAQ,Parque Industrial y de Servicios Yaque,19.46972418,-70.71437329,2010,0,private,13
-DOM-ECO,Ecopark Industrial Free Zone ,19.43705956,-70.70483542,1997,0,private,14
-DOM-VER,Luperón Verde ,19.79325036,-70.68090459,2019,0,private,15
-DOM-LEO,Parque Industrial Eduardo León Jiménes ,19.46227703,-70.671318,2018,0,private,16
-DOM-CIP,Caribbean Industrial Park ,19.410116,-70.661171,1997,0,private,17
-DOM-GUR,Gurabo ,19.48857084,-70.658343,1993,0,private,18
-DOM-SLI,Parque Tecnológico de Santiago ,19.4462542,-70.639953,1993,0,private,19
-DOM-JAN,Santiago - J‚Ä°nico,19.44758694,-70.63993419,1993,0,private,20
-DOM-LIM,El Limonal ,19.44195379,-70.63858151,2005,0,private,21
-DOM-TAM,Tamboril ,19.48142597,-70.63333181,1997,0,private,22
-DOM-EMI,Zona Franca Industrial Emimar ,19.42494677,-70.62298095,2014,0,private,23
-DOM-FLO,La Flor Dominicana ,19.48619912,-70.62006966,2019,0,private,24
-DOM-PAL,La Palma ,19.47951791,-70.59727463,2004,0,private,25
-DOM-CTQ,Parque Industrial CTQ ,19.42740185,-70.5940585,2015,0,private,26
-DOM-VEG,La Vega ,19.24673204,-70.55649026,1987,0,public,27
-DOM-MOC,Moca  ,19.39023321,-70.5372859,1989,0,public,28
-DOM-BAN,Baní ,18.25315476,-70.40511741,1986,0,private,29
-DOM-HIS,La Hispaniola  ,18.92390206,-70.40485331,2005,0,private,30
-DOM-BON,Bonao ,18.92425177,-70.40416473,1988,0,public,31
-DOM-DOS,Dos Ríos  ,18.91241012,-70.37486281,2006,0,private,32
-DOM-FRA,San Francisco de Macorís ,19.27537126,-70.28770858,1990,0,public,33
-DOM-CON,Conacado Industrial Park ,19.32373849,-70.27604128,2013,0,private,34
-DOM-ALT,Villa Altagracia ,18.68704785,-70.18063175,1988,0,private,35
-DOM-COT,Cotui,19.03592402,-70.15049018,1990,2009,public,36
-DOM-ARM,La Armería ,18.42129421,-70.11766012,1990,0,public,37
+code,name,latitude,longitude,year,close,type,sez_id
 DOM-6NO,Zona Franca 6 de Noviembre ,18.43423576,-70.07709655,2016,0,private,38
-DOM-TAL,Intercontinental ,18.56054395,-70.07035003,2015,0,private,39
-DOM-HAN,Hato Nuevo ,18.53692314,-70.06254185,2001,0,public,40
 DOM-ALC,Los Alcarrizos ,18.52119218,-70.05086541,1990,0,public,41
-DOM-NIG,Nigua ,18.39069362,-70.04615509,1989,0,private,42
-DOM-CRI,San Cristóbal (Itabo) ,18.38627302,-70.04084591,1986,0,private,43
-DOM-MUT,Multiparques S.A,18.40888469,-70.03948595,2007,0,private,44
-DOM-GLO,Global Zona Franca Ind. ,18.53043559,-70.01195079,1995,0,private,45
-DOM-PER,PERLAV,18.52899686,-69.99851177,2010,0,private,46
-DOM-INF,ZF Ind. y de Servicios Norte Infiesto ,18.49179288,-69.98528116,2014,0,private,47
-DOM-HER,Parque Z.F. Tecnológica de Herrera ,18.44047267,-69.9817525,2013,0,private,48
-DOM-MEL,Villa Mella ,18.522265,-69.90166418,1989,0,public,49
-DOM-HAI,Hainamosa ,18.51389836,-69.81584618,1988,0,private,50
-DOM-ISI,San Isidro ,18.50033327,-69.7873092,1986,0,private,51
-DOM-VIS,Bella Vista ,18.61321459,-69.70844704,2004,0,private,52
-DOM-LAS,Las Américas ,18.46024249,-69.7068226,1989,0,private,53
-DOM-CIB,Cibernético ,18.45320537,-69.66257273,2001,0,mix,54
-DOM-AND,Andrés ,18.44233642,-69.64978048,2009,0,private,55
-DOM-MUL,Multimodal Caucedo ,18.42636819,-69.63506753,2002,0,private,56
-DOM-EXC,Excel Boca Chica ,18.45806505,-69.63004786,1995,0,private,57
-DOM-MAC,San Pedro de Macorís ,18.45274371,-69.28915784,1973,0,public,58
-DOM-CHE,Chemtec ,18.45851329,-69.28651371,1988,0,private,59
-DOM-HAT,Hato Mayor ,18.76258519,-69.26597733,1990,0,public,60
-DOM-SEI,El Seibo ,18.76891317,-69.05392215,2000,0,public,61
-DOM-RII,La Romana II ,18.44349389,-68.97852859,1987,0,private,62
-DOM-ROM,La Romana I ,18.41862181,-68.9476164,1969,0,private,63
-DOM-HIG,Higuey,,,1990,2005,public,64
-DOM-IHA,Parque Ind. Exp. Haina,,,1994,2000,private,65
-DOM-PAB,Palmar Abajo,,,1996,2008,private,66
-DOM-LAG,Laguna Prieta,,,1997,2007,private,67
-DOM-PON,Pontezuela,,,1997,2012,private,68
-DOM-BAY,Bayaguana,,,1999,2007,public,69
-DOM-SAL,Salcedo,,,1999,2012,public,70
-DOM-MIN,Los Minas,,,2000,2009,public,71
-DOM-JAI,Jaibon,,,2000,2012,private,72
-DOM-QUI,Quisqueya ,19.48858161,-70.65855914,2001,0,public,73
+DOM-ALT,Villa Altagracia ,18.68704785,-70.18063175,1988,0,private,35
+DOM-AND,Andres,18.44233642,-69.64978048,2009,0,private,55
+DOM-ARM,La Armeria ,18.42129421,-70.11766012,1990,0,public,37
 DOM-AZU,Azua,,,2001,2004,public,74
-DOM-MOI,Montecristi ,,,2001,2005,public,75
-DOM-LUN,Zona Franca Industrial Luna,,,2001,2007,private,76
-DOM-RAF,Don Rafael ,,,2002,2004,private,77
+DOM-BAN,Bani,18.25315476,-70.40511741,1986,0,private,29
+DOM-BAR,Barahona ,18.22153648,-71.10145235,1989,0,public,2
+DOM-BAY,Bayaguana,,,1999,2007,public,69
+DOM-BON,Bonao ,18.92425177,-70.40416473,1988,0,public,31
+DOM-CAD,Los Candelones ,19.55066181,-70.85609369,2017,0,private,6
 DOM-CAN,La canela ,,,2003,2005,private,78
-DOM-PEV,PEVISA,,,2004,2005,private,79
-DOM-DPE,Don Pedro,,,2004,2007,private,80
-DOM-KEP,Silver Key Park,,,2005,2006,private,81
-DOM-SAG,Zona Franca Ind. SAG,19.43723474,-70.61735952,2012,0,private,82
-DOM-RIE,Los Rieles,19.48858161,-70.65855914,2013,0,private,83
-DOM-ROB,Los Robles,,,2013,2015,private,84
 DOM-CDF,Parque Industrial CDF,19.49516261,-70.71634466,2014,0,private,85
-DOM-KGC,Parque Ind. KG Compañía Comercial,19.5498392,-70.84249449,2014,0,private,86
-DOM-SUR,Zona Franca Ind. Del Sur,,,2014,0,private,87
-DOM-JOB,Zona Franca Jobo Industrial,19.47548577,-70.64268481,2015,0,private,88
-DOM-MAI,Zona Franca Bahía de Maimón,,,2015,0,private,89
-DOM-NOR,Zona Franca Industrial del Norte,19.54010463,-70.79206329,2016,0,private,90
-DOM-SUN,Parque Industrial Zona Franca Sunsea,,,2016,2019,private,91
+DOM-CHE,Chemtec ,18.45851329,-69.28651371,1988,0,private,59
+DOM-CIB,Cibernetico ,18.45320537,-69.66257273,2001,0,mix,54
+DOM-CIP,Caribbean Industrial Park ,19.410116,-70.661171,1997,0,private,17
+DOM-CON,Conacado Industrial Park ,19.32373849,-70.27604128,2013,0,private,34
+DOM-COT,Cotui,19.03592402,-70.15049018,1990,2009,public,36
+DOM-CRI,San Cristobal (Itabo) ,18.38627302,-70.04084591,1986,0,private,43
+DOM-CTQ,Parque Industrial CTQ ,19.42740185,-70.5940585,2015,0,private,26
+DOM-DOS,Dos Rios  ,18.91241012,-70.37486281,2006,0,private,32
+DOM-DPE,Don Pedro,,,2004,2007,private,80
+DOM-ECO,Ecopark Industrial Free Zone ,19.43705956,-70.70483542,1997,0,private,14
 DOM-ELV,Parque Industrial Elva Maria,19.45844729,-70.63018049,2017,0,private,92
-DOM-RIO,Riosur ,18.5195064,-69.64306985,2017,0,private,93
+DOM-EMI,Zona Franca Industrial Emimar ,19.42494677,-70.62298095,2014,0,private,23
+DOM-ESP,Esperanza ,19.59381238,-70.97901224,1988,0,public,4
+DOM-EXC,Excel Boca Chica ,18.45806505,-69.63004786,1995,0,private,57
+DOM-FLO,La Flor Dominicana ,19.48619912,-70.62006966,2019,0,private,24
+DOM-FRA,San Francisco de Macoris ,19.27537126,-70.28770858,1990,0,public,33
+DOM-GLO,Global Zona Franca Ind. ,18.53043559,-70.01195079,1995,0,private,45
+DOM-GUR,Gurabo ,19.48857084,-70.658343,1993,0,private,18
+DOM-HAI,Hainamosa ,18.51389836,-69.81584618,1988,0,private,50
+DOM-HAN,Hato Nuevo ,18.53692314,-70.06254185,2001,0,public,40
+DOM-HAT,Hato Mayor ,18.76258519,-69.26597733,1990,0,public,60
+DOM-HER,Parque Z.F. Tecnologica de Herrera ,18.44047267,-69.9817525,2013,0,private,48
+DOM-HIG,Higuey,,,1990,2005,public,64
+DOM-HIP,La Herradura Industrial Park  ,19.45074236,-70.74300157,2015,0,private,9
+DOM-HIS,La Hispaniola  ,18.92390206,-70.40485331,2005,0,private,30
 DOM-HIT,Zona Franca Hit,18.4418766,-69.65026915,2018,0,private,94
+DOM-IHA,Parque Ind. Exp. Haina,,,1994,2000,private,65
+DOM-INE,Parque Industrial INETAB ,19.48954984,-70.72195582,2016,0,private,12
+DOM-INF,ZF Ind. y de Servicios Norte Infiesto ,18.49179288,-69.98528116,2014,0,private,47
+DOM-INT,Interexport Free Zone ,18.21182991,-71.11042584,2010,0,private,1
+DOM-ISI,San Isidro ,18.50033327,-69.7873092,1986,0,private,51
+DOM-JAI,Jaibon,,,2000,2012,private,72
+DOM-JAN,Santiago - Janico,19.44758694,-70.63993419,1993,0,private,20
+DOM-JOB,Zona Franca Jobo Industrial,19.47548577,-70.64268481,2015,0,private,88
+DOM-KEP,Silver Key Park,,,2005,2006,private,81
+DOM-KGC,Parque Ind. KG Compania Comercial,19.5498392,-70.84249449,2014,0,private,86
+DOM-LAG,Laguna Prieta,,,1997,2007,private,67
+DOM-LAS,Las Americas ,18.46024249,-69.7068226,1989,0,private,53
+DOM-LEO,Parque Industrial Eduardo Leon Jimenes ,19.46227703,-70.671318,2018,0,private,16
+DOM-LIM,El Limonal ,19.44195379,-70.63858151,2005,0,private,21
+DOM-LUN,Zona Franca Industrial Luna,,,2001,2007,private,76
+DOM-MAC,San Pedro de Macoris ,18.45274371,-69.28915784,1973,0,public,58
+DOM-MAI,Zona Franca Bahía de Maimon,,,2015,0,private,89
+DOM-MEL,Villa Mella ,18.522265,-69.90166418,1989,0,public,49
+DOM-MIN,Los Minas,,,2000,2009,public,71
+DOM-MOC,Moca  ,19.39023321,-70.5372859,1989,0,public,28
+DOM-MOI,Montecristi ,,,2001,2005,public,75
+DOM-MUL,Multimodal Caucedo ,18.42636819,-69.63506753,2002,0,private,56
+DOM-MUT,Multiparques S.A,18.40888469,-70.03948595,2007,0,private,44
+DOM-NAV,Navarrete ,19.56817155,-70.87355309,1996,0,private,5
+DOM-NIG,Nigua ,18.39069362,-70.04615509,1989,0,private,42
 DOM-NII,Nigua II,18.49893041,-69.79093729,2018,0,private,95
+DOM-NOR,Zona Franca Industrial del Norte,19.54010463,-70.79206329,2016,0,private,90
+DOM-PAB,Palmar Abajo,,,1996,2008,private,66
+DOM-PAL,La Palma ,19.47951791,-70.59727463,2004,0,private,25
+DOM-PAM,Palmarejo ,19.53965534,-70.79354494,1997,0,private,7
+DOM-PED,Pedernales ,18.03212506,-71.7361763,1991,0,public,0
+DOM-PER,PERLAV,18.52899686,-69.99851177,2010,0,private,46
+DOM-PEV,PEVISA,,,2004,2005,private,79
+DOM-PIS,Santiago-Navarrete (PISANO) ,19.50852054,-70.75994998,1993,0,private,8
+DOM-PON,Pontezuela,,,1997,2012,private,68
+DOM-PUE,Puerto Plata ,19.80291323,-70.72350803,1983,0,mix,11
+DOM-QUI,Quisqueya ,19.48858161,-70.65855914,2001,0,public,73
+DOM-RAF,Don Rafael ,,,2002,2004,private,77
+DOM-RIE,Los Rieles,19.48858161,-70.65855914,2013,0,private,83
+DOM-RII,La Romana II ,18.44349389,-68.97852859,1987,0,private,62
+DOM-RIO,Riosur ,18.5195064,-69.64306985,2017,0,private,93
+DOM-ROB,Los Robles,,,2013,2015,private,84
+DOM-ROM,La Romana I ,18.41862181,-68.9476164,1969,0,private,63
+DOM-S12,Santiago ,19.47670339,-70.72489004,1974,0,mix,10
+DOM-SAG,Zona Franca Ind. SAG,19.43723474,-70.61735952,2012,0,private,82
+DOM-SAL,Salcedo,,,1999,2012,public,70
+DOM-SEI,El Seibo ,18.76891317,-69.05392215,2000,0,public,61
+DOM-SLI,Parque Tecnologico de Santiago ,19.4462542,-70.639953,1993,0,private,19
+DOM-SUN,Parque Industrial Zona Franca Sunsea,,,2016,2019,private,91
+DOM-SUR,Zona Franca Ind. Del Sur,,,2014,0,private,87
+DOM-TAL,Intercontinental ,18.56054395,-70.07035003,2015,0,private,39
+DOM-TAM,Tamboril ,19.48142597,-70.63333181,1997,0,private,22
+DOM-VEG,La Vega ,19.24673204,-70.55649026,1987,0,public,27
+DOM-VER,Luperon Verde ,19.79325036,-70.68090459,2019,0,private,15
+DOM-VIS,Bella Vista ,18.61321459,-69.70844704,2004,0,private,52
+DOM-YAQ,Parque Industrial y de Servicios Yaque,19.46972418,-70.71437329,2010,0,private,13
+DOM-ZOF,Zofinma (Mao),19.5539567,-71.09162809,1993,2006,private,3
