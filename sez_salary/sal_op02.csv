@@ -1,54 +1,54 @@
-﻿Parques,op02,tec02
-Azua,700,850
-Baní,726.12,1509.52
-Barahona,800,1566.67
-Bayaguana,575,755
-Bonao,657.5,1256
-Caribbean Ind. Park,819.88,1902
-Chemtec,704.56,1279
-Cibernético,800,2936
-Cotuí,625,1200
-Don Rafael,950,2500
-El Seibo,649,1200
-Esperanza,777.31,1612.8
-Excel Boca Chica,1145.5,1769.5
-Global,800,1322
-Gurabo,867.81,1570.18
-Hainamosa,792.27,1129
-Hato Mayor,822,1395
-Hato Nuevo,577,1813.5
-Higuey,990,2150
-Itabo,751.4,1523.07
-Jaibón,880,1800
-La Armería,621.69,1455.05
-La Romana I,714.55,1707.15
-La Romana II,686.61,1686.33
-La Vega,779.86,1657.9
-Laguna Prieta,860,1392
-Las Américas,726.3,1872.13
-Los Alcarrizos,653.39,1689
-Los Mina,860,1500
-Montecristi,537.5,875
-Moca,820.12,1442.44
-Multimodal Caucedo,0,1341
-Navarrete,700,1200
-Nigua,745.92,1649.75
-Palmar Abajo,942.96,0
-Palmarejo,986.33,1975.67
-Pedernales,575,0
-PISANO,952.32,1765
-Pontezuela,925,1402
-Puerto Plata,806.06,1486.49
-Salcedo,402.5,1500
-San Fco. De Macorís,733.6,1380
-San Isidro,743.91,1815.64
-San Pedro de Macorís,738.79,1651.84
-Santiago,848.04,1852
-Santiago- Jánico,818.75,1836
-Santiago-Licey,919.38,1247
-Tamboril,725,1600
-Villa Altagracia,629.28,804
-Villa Mella,742.33,1938
-Zofinma (Mao),802,2778
-Quisqueya,800,2500
-Luna,627,694
+﻿code,Parques,op02,tec02
+DOM-AZU,Azua,700,850
+DOM-BAN,Baní,726.12,1509.52
+DOM-BAR,Barahona,800,1566.67
+DOM-BAY,Bayaguana,575,755
+DOM-BON,Bonao,657.5,1256
+DOM-CIP,Caribbean Ind. Park,819.88,1902
+DOM-CHE,Chemtec,704.56,1279
+DOM-CIB,Cibernético,800,2936
+DOM-COT,Cotuí,625,1200
+DOM-RAF,Don Rafael,950,2500
+DOM-SEI,El Seibo,649,1200
+DOM-ESP,Esperanza,777.31,1612.8
+DOM-EXC,Excel Boca Chica,1145.5,1769.5
+DOM-GLO,Global,800,1322
+DOM-GUR,Gurabo,867.81,1570.18
+DOM-HAI,Hainamosa,792.27,1129
+DOM-HAT,Hato Mayor,822,1395
+DOM-HAN,Hato Nuevo,577,1813.5
+DOM-HIG,Higuey,990,2150
+DOM-CRI,Itabo,751.4,1523.07
+DOM-JAI,Jaibón,880,1800
+DOM-ARM,La Armería,621.69,1455.05
+DOM-ROM,La Romana I,714.55,1707.15
+DOM-RII,La Romana II,686.61,1686.33
+DOM-VEG,La Vega,779.86,1657.9
+DOM-LAG,Laguna Prieta,860,1392
+DOM-LAS,Las Américas,726.3,1872.13
+DOM-ALC,Los Alcarrizos,653.39,1689
+DOM-MIN,Los Mina,860,1500
+DOM-MOI,Montecristi,537.5,875
+DOM-MOC,Moca,820.12,1442.44
+DOM-MUL,Multimodal Caucedo,0,1341
+DOM-NAV,Navarrete,700,1200
+DOM-NIG,Nigua,745.92,1649.75
+DOM-PAB,Palmar Abajo,942.96,0
+DOM-PAM,Palmarejo,986.33,1975.67
+DOM-PED,Pedernales,575,0
+DOM-PIS,PISANO,952.32,1765
+DOM-PON,Pontezuela,925,1402
+DOM-PUE,Puerto Plata,806.06,1486.49
+DOM-SAL,Salcedo,402.5,1500
+DOM-FRA,San Fco. De Macorís,733.6,1380
+DOM-ISI,San Isidro,743.91,1815.64
+DOM-MAC,San Pedro de Macorís,738.79,1651.84
+DOM-S12,Santiago,848.04,1852
+DOM-JAN,Santiago- Jánico,818.75,1836
+DOM-SLI,Santiago-Licey,919.38,1247
+DOM-TAM,Tamboril,725,1600
+DOM-ALT,Villa Altagracia,629.28,804
+DOM-MEL,Villa Mella,742.33,1938
+DOM-ZOF,Zofinma (Mao),802,2778
+DOM-QUI,Quisqueya,800,2500
+DOM-LUN,Luna,627,694
