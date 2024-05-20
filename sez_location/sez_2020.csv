@@ -1,0 +1,13 @@
+code,name,latitude,longitude,year,close,type,sez_id,origin 
+DOM-6NO,Zona Franca 6 de Noviembre ,18.43423576,-70.07709655,2016,0,private,1,1
+DOM-CAD,Los Candelones ,19.55066181,-70.85609369,2017,0,private,11,1
+DOM-ELV,Parque Industrial Elva Maria,19.45844729,-70.63018049,2017,0,private,24,1
+DOM-FLO,La Flor Dominicana ,19.48619912,-70.62006966,2019,0,private,28,1
+DOM-HIT,Zona Franca Hit,18.4418766,-69.65026915,2018,0,private,39,1
+DOM-INE,Parque Industrial INETAB ,19.48954984,-70.72195582,2016,0,private,41,1
+DOM-LEO,Parque Industrial Eduardo Leon Jimenes ,19.46227703,-70.671318,2018,0,private,51,1
+DOM-NII,Nigua II,18.49893041,-69.79093729,2018,0,private,64,1
+DOM-NOR,Zona Franca Industrial del Norte,19.54010463,-70.79206329,2016,0,private,65,1
+DOM-RIO,Riosur ,18.5195064,-69.64306985,2017,0,private,79,1
+DOM-SUN,Parque Industrial Zona Franca Sunsea,,,2016,2019,private,87,1
+DOM-VER,Luperon Verde ,19.79325036,-70.68090459,2019,0,private,92,1

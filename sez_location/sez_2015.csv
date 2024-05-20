@@ -1,0 +1,19 @@
+code,name,latitude,longitude,year,close,type,sez_id,origin 
+DOM-CDF,Parque Industrial CDF,19.49516261,-70.71634466,2014,0,private,13,1
+DOM-CON,Conacado Industrial Park ,19.32373849,-70.27604128,2013,0,private,17,1
+DOM-CTQ,Parque Industrial CTQ ,19.42740185,-70.5940585,2015,0,private,20,1
+DOM-EMI,Zona Franca Industrial Emimar ,19.42494677,-70.62298095,2014,0,private,25,1
+DOM-HER,Parque Z.F. Tecnologica de Herrera ,18.44047267,-69.9817525,2013,0,private,35,1
+DOM-HIP,La Herradura Industrial Park  ,19.45074236,-70.74300157,2015,0,private,37,1
+DOM-INF,ZF Ind. y de Servicios Norte Infiesto ,18.49179288,-69.98528116,2014,0,private,42,1
+DOM-INT,Interexport Free Zone ,18.21182991,-71.11042584,2010,0,private,43,1
+DOM-JOB,Zona Franca Jobo Industrial,19.47548577,-70.64268481,2015,0,private,46,1
+DOM-KGC,Parque Ind. KG Compania Comercial,19.5498392,-70.84249449,2014,0,private,48,1
+DOM-MAI,Zona Franca Bah’a de Maimon,,,2015,0,private,55,1
+DOM-PER,PERLAV,18.52899686,-69.99851177,2010,0,private,70,1
+DOM-RIE,Los Rieles,19.48858161,-70.65855914,2013,0,private,77,1
+DOM-ROB,Los Robles,,,2013,2015,private,80,1
+DOM-SAG,Zona Franca Ind. SAG,19.43723474,-70.61735952,2012,0,private,83,1
+DOM-SUR,Zona Franca Ind. Del Sur,,,2014,0,private,88,1
+DOM-TAL,Intercontinental ,18.56054395,-70.07035003,2015,0,private,89,1
+DOM-YAQ,Parque Industrial y de Servicios Yaque,19.46972418,-70.71437329,2010,0,private,94,1

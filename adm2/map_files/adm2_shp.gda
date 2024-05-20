@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <title>adm2_shp</title>
+    <layers>
+        <layer>
+            <datasource>
+                <type>ESRI Shapefile</type>
+                <path>adm2_shp.shp</path>
+            </datasource>
+            <layername>adm2_shp</layername>
+            <title/>
+            <variable_order>
+                <time_ids>
+                    <id>time 0</id>
+                </time_ids>
+                <var>id</var>
+                <var>shapeName</var>
+                <var>
+                    ntl_2000
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    ntl_2005
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    ntl_2010
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    ntl_2015
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    ntl_2020
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    agr_2001
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    agr_2005
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    agr_2010
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    agr_2015
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    agr_2020
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    urb_2001
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    urb_2005
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    urb_2010
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    urb_2015
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    urb_2020
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>sez_count</var>
+                <var>
+                    pop_2000
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    pop_2005
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    pop_2010
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    pop_2015
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    pop_2020
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    tem_2001
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    tem_2005
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    tem_2010
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    tem_2015
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    tem_2020
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+            </variable_order>
+            <custom_classifications>
+                <classification_definition>
+                    <title>Custom Breaks (ntl_2020)</title>
+                    <type>custom</type>
+                    <num_cats>5</num_cats>
+                    <automatic_labels>true</automatic_labels>
+                    <assoc_db_fld_name>ntl_2015</assoc_db_fld_name>
+                    <uniform_dist_min>0</uniform_dist_min>
+                    <uniform_dist_max>37.889625198303968</uniform_dist_max>
+                    <breaks>
+                        <break>0.45205869383814151</break>
+                        <break>5.8671548240476623</break>
+                        <break>5.8671548240476623</break>
+                        <break>5.8671548240476623</break>
+                    </breaks>
+                    <names>
+                        <name>&lt; 0.452</name>
+                        <name>[0.452, 5.867)</name>
+                        <name>[5.867, 5.867]</name>
+                        <name>(5.867, 5.867]</name>
+                        <name>&gt; 5.867</name>
+                    </names>
+                    <colors/>
+                    <color_scheme>sequential</color_scheme>
+                </classification_definition>
+                <classification_definition>
+                    <title>Custom Breaks (ntl_2020) 1</title>
+                    <type>custom</type>
+                    <num_cats>5</num_cats>
+                    <automatic_labels>true</automatic_labels>
+                    <assoc_db_fld_name>ntl_2020</assoc_db_fld_name>
+                    <uniform_dist_min>0</uniform_dist_min>
+                    <uniform_dist_max>1</uniform_dist_max>
+                    <breaks>
+                        <break>0.439</break>
+                        <break>5.8671548240476623</break>
+                        <break>16.587502065027326</break>
+                        <break>49.45114142619186</break>
+                    </breaks>
+                    <names>
+                        <name>&lt; 0.439</name>
+                        <name>[0.439, 5.867)</name>
+                        <name>[5.867, 16.588]</name>
+                        <name>(16.588, 49.451]</name>
+                        <name>&gt; 49.451</name>
+                    </names>
+                    <color_scheme>sequential</color_scheme>
+                </classification_definition>
+            </custom_classifications>
+            <weights_entries>
+                <weights>
+                    <title>queen_1</title>
+                    <default/>
+                    <meta_info>
+                        <weights_type>queen</weights_type>
+                        <order>1</order>
+                        <inc_lower_orders>false</inc_lower_orders>
+                        <path>w_matrix/queen_1.gal</path>
+                        <id_variable>id</id_variable>
+                        <symmetry>symmetric</symmetry>
+                        <num_observations>162</num_observations>
+                        <min_neighbors>0</min_neighbors>
+                        <max_neighbors>14</max_neighbors>
+                        <mean_neighbors>5.0864197530864201</mean_neighbors>
+                        <median_neighbors>5</median_neighbors>
+                        <non_zero_perc>3.1397652796829751</non_zero_perc>
+                    </meta_info>
+                </weights>
+            </weights_entries>
+            <default_vars>
+                <default_var>
+                    <name>ntl_2000</name>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name>urb_2020</name>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+            </default_vars>
+        </layer>
+    </layers>
+</project>
