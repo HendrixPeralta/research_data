@@ -1,75 +1,75 @@
 code,park18,inv18
-DOM-AND,Andrés,0
-DOM-BAN,Baní,0
-DOM-BAR,Barahona,0
-DOM-VIS,Bella Vista,0
-DOM-BON,Bonao,0
-DOM-CIP,Caribbean Industrial Park,0
-DOM-CHE,Chemtec,0
-DOM-CIB,Cibernético,0
-DOM-CON,Conacado Industrial Park,0
-DOM-DOS,Dos Ríos,0
-DOM-LIM,El Limonal,0
-DOM-SEI,El Seibo,0
-DOM-ESP,Esperanza,0
-DOM-EXC,Excel Boca Chica,0
-DOM-GLO,Global Zona Franca Industrial,0
-DOM-GUR,Gurabo,0
-DOM-HAI,Hainamosa,0
-DOM-HAT,Hato Mayor,0
-DOM-HAN,Hato Nuevo,0
-DOM-TAL,Intercontinental,0
-DOM-INT,Interexport Free Zone,0
-DOM-ARM,La Armería,0
-DOM-HIP,La Herradura Industrial Park,0
-DOM-HIS,La Hispaniola,0
-DOM-PAL,La Palma,0
-DOM-ROM,La Romana I,0
-DOM-RII,La Romana II,0
-DOM-VEG,La Vega,0
-DOM-LAS,Las Américas,0
-DOM-ALC,Los Alcarrizos,0
-DOM-RIE,Los Rieles,0
-DOM-MOC,Moca,0
-DOM-MUL,Multimodal Caucedo,0
-DOM-MUT,Multiparques,0
-DOM-NAV,Navarrete,0
-DOM-NIG,Nigua,0
-DOM-PAB,Palmar Abajo,0
-DOM-PAM,Palmarejo,0
-DOM-SUN,Parque Ind. Zona Franca Sunsea,0
-DOM-CDF,Parque Industrial CDF,0
-DOM-CTQ,Parque Industrial CTQ,0
-DOM-INE,Parque Industrial INETAB,0
-DOM-KGC,Parque Industrial KG Compañía Comercial,0
-DOM-YAQ,Parque Industrial y de Servicios Yaque,0
-DOM-SLI,Parque Tecnológico de Santiago,0
-DOM-HER,Parque Zona Franca Tecnológica de Herrera,0
-DOM-PED,Pedernales,0
-DOM-PER,PERLAV,0
-DOM-PIS,PISANO,0
-DOM-PUE,Puerto Plata,0
-DOM-QUI,Quisqueya,0
-DOM-CRI,San Cristóbal (Itabo),0
-DOM-FRA,San Francisco de Macorís,0
-DOM-ISI,San Isidro,0
-DOM-MAC,San Pedro de Macorís,0
-DOM-S12,Santiago,0
-DOM-JAN,Santiago-Jánico,0
-DOM-TAM,Tamboril,0
-DOM-ALT,Villa Altagracia,0
-DOM-MEL,Villa Mella,0
-DOM-INF,Z.F. Ind. y de Servicios Norte Infiesto,0
-DOM-MAI,Zona Franca Bahía de Maimón,0
-DOM-6NO,Zona Franca Ind. 6 de Noviembre,0
-DOM-NOR,Zona Franca Industrial del Norte,0
-DOM-SUR,Zona Franca Industrial del Sur,0
-DOM-EMI,Zona Franca Industrial Emimar,0
-DOM-SAG,Zona Franca Industrial SAG,0
-DOM-JOB,Zona Franca Jobo Industrial,0
-DOM-ELV,Elva Maria,0
-DOM-CAD,Los Candelones ,0
-DOM-RIO,Zona Franca Industrial Riosur,0
-DOM-LEO,Eduardo Leon Jimenez,1
-DOM-NII,Nigua II ,1
-DOM-HIT,Zona Franca Industrial HIT ,1
+DOM-AND,Andrés,-99
+DOM-BAN,Baní,-99
+DOM-BAR,Barahona,-99
+DOM-VIS,Bella Vista,-99
+DOM-BON,Bonao,-99
+DOM-CIP,Caribbean Industrial Park,-99
+DOM-CHE,Chemtec,-99
+DOM-CIB,Cibernético,-99
+DOM-CON,Conacado Industrial Park,-99
+DOM-DOS,Dos Ríos,-99
+DOM-LIM,El Limonal,-99
+DOM-SEI,El Seibo,-99
+DOM-ESP,Esperanza,-99
+DOM-EXC,Excel Boca Chica,-99
+DOM-GLO,Global Zona Franca Industrial,-99
+DOM-GUR,Gurabo,-99
+DOM-HAI,Hainamosa,-99
+DOM-HAT,Hato Mayor,-99
+DOM-HAN,Hato Nuevo,-99
+DOM-TAL,Intercontinental,-99
+DOM-INT,Interexport Free Zone,-99
+DOM-ARM,La Armería,-99
+DOM-HIP,La Herradura Industrial Park,-99
+DOM-HIS,La Hispaniola,-99
+DOM-PAL,La Palma,-99
+DOM-ROM,La Romana I,-99
+DOM-RII,La Romana II,-99
+DOM-VEG,La Vega,-99
+DOM-LAS,Las Américas,-99
+DOM-ALC,Los Alcarrizos,-99
+DOM-RIE,Los Rieles,-99
+DOM-MOC,Moca,-99
+DOM-MUL,Multimodal Caucedo,-99
+DOM-MUT,Multiparques,-99
+DOM-NAV,Navarrete,-99
+DOM-NIG,Nigua,-99
+DOM-PAB,Palmar Abajo,-99
+DOM-PAM,Palmarejo,-99
+DOM-SUN,Parque Ind. Zona Franca Sunsea,-99
+DOM-CDF,Parque Industrial CDF,-99
+DOM-CTQ,Parque Industrial CTQ,-99
+DOM-INE,Parque Industrial INETAB,-99
+DOM-KGC,Parque Industrial KG Compañía Comercial,-99
+DOM-YAQ,Parque Industrial y de Servicios Yaque,-99
+DOM-SLI,Parque Tecnológico de Santiago,-99
+DOM-HER,Parque Zona Franca Tecnológica de Herrera,-99
+DOM-PED,Pedernales,-99
+DOM-PER,PERLAV,-99
+DOM-PIS,PISANO,-99
+DOM-PUE,Puerto Plata,-99
+DOM-QUI,Quisqueya,-99
+DOM-CRI,San Cristóbal (Itabo),-99
+DOM-FRA,San Francisco de Macorís,-99
+DOM-ISI,San Isidro,-99
+DOM-MAC,San Pedro de Macorís,-99
+DOM-S12,Santiago,-99
+DOM-JAN,Santiago-Jánico,-99
+DOM-TAM,Tamboril,-99
+DOM-ALT,Villa Altagracia,-99
+DOM-MEL,Villa Mella,-99
+DOM-INF,Z.F. Ind. y de Servicios Norte Infiesto,-99
+DOM-MAI,Zona Franca Bahía de Maimón,-99
+DOM-6NO,Zona Franca Ind. 6 de Noviembre,-99
+DOM-NOR,Zona Franca Industrial del Norte,-99
+DOM-SUR,Zona Franca Industrial del Sur,-99
+DOM-EMI,Zona Franca Industrial Emimar,-99
+DOM-SAG,Zona Franca Industrial SAG,-99
+DOM-JOB,Zona Franca Jobo Industrial,-99
+DOM-ELV,Elva Maria,-99
+DOM-CAD,Los Candelones ,-99
+DOM-RIO,Zona Franca Industrial Riosur,-99
+DOM-LEO,Eduardo Leon Jimenez,-99
+DOM-NII,Nigua II ,-99
+DOM-HIT,Zona Franca Industrial HIT ,-99
