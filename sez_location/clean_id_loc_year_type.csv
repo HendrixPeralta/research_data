@@ -1,4 +1,4 @@
-code,name,latitude,longitude,year,close,type,sez_id,origin 
+code,name,latitude,longitude,start,close,type,sez_id,origin 
 DOM-6NO,Zona Franca 6 de Noviembre ,18.43423576,-70.07709655,2016,0,private,1,1
 DOM-ALC,Los Alcarrizos ,18.52119218,-70.05086541,1990,0,public,2,1
 DOM-ALT,Villa Altagracia ,18.68704785,-70.18063175,1988,0,private,3,1
