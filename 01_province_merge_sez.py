@@ -108,4 +108,6 @@ long_df.fillna(0, inplace=True)
 
 # %%
 # Exports the data in a long format 
-long_df.to_csv("long_province_sez.csv")
+long_df.to_csv("aggregated_data/provinces/long_province_sez.csv")
+
+# %%
