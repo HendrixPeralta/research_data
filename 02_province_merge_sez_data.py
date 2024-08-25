@@ -14,7 +14,7 @@ import mapclassify
 # Read geospatial data
 provinces = gpd.read_file("adm1/adm1_map/adm1.shp")
 sez_data = pd.read_csv("aggregated_data/provinces/01_exports/sez_province_map.csv")
-sez_location =gpd.read_file("aggregated_data/provinces/01_exports/sez_gdf.shp")
+sez_location = gpd.read_file("aggregated_data/provinces/01_exports/sez_gdf.shp")
 
 # %%
 # Read and manipulation of the population data/
@@ -115,7 +115,7 @@ pattern2 = "|".join(var_names)
 
 long_df = pd.wide_to_long(municipality_data, stubnames=var_names, i='id', j='year', sep='')
 long_df = long_df[long_df.columns[long_df.columns.str.contains("shape|id|year")|long_df.columns.str.contains(pattern2)]]
-long_df =  long_df.drop(columns = "sez_data_id")
+long_df =  long_df.drop(columns = "sez_id")
 long_df.fillna(0, inplace=True)
 
 # %%
@@ -131,35 +131,25 @@ type(geo_province)
 # %%
 classifier = mapclassify.NaturalBreaks(geo_province["ntl2013"], k=5)
 # %%
-ax = geo_province.plot(
+fig, ax = plt.subplots(figsize=(10,10))
+
+geo_province.plot(
     column = "ntl2013",
     scheme="UserDefined",
     classification_kwds={"bins":classifier.bins},
     cmap="OrRd",
     edgecolor="k",
-    legend=True
+    legend=True,
+    ax=ax
 )
-# %%
-geo_province.plot(
-    column = "ntl2010",
-    scheme="UserDefined",
-    classification_kwds={"bins":classifier.bins},
-    cmap="OrRd",
-    edgecolor="k",
-    legend=True
-)
-# %%
-sez_data.plot(
+
+sez_location.plot(
+    ax=ax,
     color="blue",
     marker="o",
-    marksize=50,
+    markersize=50,
     # label=
 
-)
-# %%
-sez_data_gdf.explore(
-    titles = "CartoDB positron",
-    cmap = "plasma", 
-    style_kwds=dict(color = "black")
-)
+    )
+
 # %%
