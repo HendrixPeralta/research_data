@@ -13,7 +13,8 @@ import mapclassify
 # %%
 # Read geospatial data
 provinces = gpd.read_file("adm1/adm1_map/adm1.shp")
-sez = pd.read_csv("aggregated_data/provinces/01_exports/sez_province_sez_map.csv")
+sez_data = pd.read_csv("aggregated_data/provinces/01_exports/sez_province_map.csv")
+sez_location =gpd.read_file("aggregated_data/provinces/01_exports/sez_gdf.shp")
 
 # %%
 # Read and manipulation of the population data/
@@ -89,7 +90,7 @@ soci = pd.read_csv("/Users/hendrixperalta/Desktop/Research Data Manipulation/res
 # %%
 # Unifies the different datasets 
 datasets = [temp, agri, urba, ntl, egdp, edu, health, soci]
-municipality_data = pd.merge(sez, pop_sum[pop_sum.columns[pop_sum.columns.str.contains("pop|id")]], on="id", how="outer")
+municipality_data = pd.merge(sez_data, pop_sum[pop_sum.columns[pop_sum.columns.str.contains("pop|id")]], on="id", how="outer")
 
 for dataset in datasets: 
     municipality_data = pd.merge(municipality_data, dataset, on="id", how= "outer")
@@ -114,12 +115,12 @@ pattern2 = "|".join(var_names)
 
 long_df = pd.wide_to_long(municipality_data, stubnames=var_names, i='id', j='year', sep='')
 long_df = long_df[long_df.columns[long_df.columns.str.contains("shape|id|year")|long_df.columns.str.contains(pattern2)]]
-long_df =  long_df.drop(columns = "sez_id")
+long_df =  long_df.drop(columns = "sez_data_id")
 long_df.fillna(0, inplace=True)
 
 # %%
 # Exports the data in a long format 
-long_df.to_csv("aggregated_data/provinces/02_exports/long_province_sez.csv")
+long_df.to_csv("aggregated_data/provinces/02_exports/long_province_sez_data.csv")
 
 # %%
 provinces["id"] = provinces["id"].astype(int)
@@ -130,7 +131,7 @@ type(geo_province)
 # %%
 classifier = mapclassify.NaturalBreaks(geo_province["ntl2013"], k=5)
 # %%
-geo_province.plot(
+ax = geo_province.plot(
     column = "ntl2013",
     scheme="UserDefined",
     classification_kwds={"bins":classifier.bins},
@@ -146,5 +147,19 @@ geo_province.plot(
     cmap="OrRd",
     edgecolor="k",
     legend=True
+)
+# %%
+sez_data.plot(
+    color="blue",
+    marker="o",
+    marksize=50,
+    # label=
+
+)
+# %%
+sez_data_gdf.explore(
+    titles = "CartoDB positron",
+    cmap = "plasma", 
+    style_kwds=dict(color = "black")
 )
 # %%
