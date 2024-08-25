@@ -1,9 +1,19 @@
 # %%
 import pandas as pd
 
+import geopandas as gpd
+from geopandas import points_from_xy
+
+import matplotlib.pyplot as plt
+import matplotlib.colors as colors
+from matplotlib.colors import LinearSegmentedColormap
+
+import mapclassify
+
 # %%
 # Read geospatial data
-sez = pd.read_csv("aggregated_data/provinces/01_exports/spatial_joined_sez_map.csv")
+provinces = gpd.read_file("adm1/adm1_map/adm1.shp")
+sez = pd.read_csv("aggregated_data/provinces/01_exports/sez_province_sez_map.csv")
 
 # %%
 # Read and manipulation of the population data/
@@ -101,6 +111,7 @@ var_names = ["inv", "ob_f_","tec_f_","adm_f_","ob_m_","tec_m_","adm_m_",'ent', '
                 "suicides_", "homicides_", "car_theft_", "drop_m", "scho_count", "class", "stu"]
 
 pattern2 = "|".join(var_names)
+
 long_df = pd.wide_to_long(municipality_data, stubnames=var_names, i='id', j='year', sep='')
 long_df = long_df[long_df.columns[long_df.columns.str.contains("shape|id|year")|long_df.columns.str.contains(pattern2)]]
 long_df =  long_df.drop(columns = "sez_id")
@@ -110,4 +121,30 @@ long_df.fillna(0, inplace=True)
 # Exports the data in a long format 
 long_df.to_csv("aggregated_data/provinces/02_exports/long_province_sez.csv")
 
+# %%
+provinces["id"] = provinces["id"].astype(int)
+geo_province = provinces.merge(municipality_data,
+                               left_on="id",
+                               right_on="id")
+type(geo_province)
+# %%
+classifier = mapclassify.NaturalBreaks(geo_province["ntl2013"], k=5)
+# %%
+geo_province.plot(
+    column = "ntl2013",
+    scheme="UserDefined",
+    classification_kwds={"bins":classifier.bins},
+    cmap="OrRd",
+    edgecolor="k",
+    legend=True
+)
+# %%
+geo_province.plot(
+    column = "ntl2010",
+    scheme="UserDefined",
+    classification_kwds={"bins":classifier.bins},
+    cmap="OrRd",
+    edgecolor="k",
+    legend=True
+)
 # %%

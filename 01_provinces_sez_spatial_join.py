@@ -91,17 +91,13 @@ plt.title("Pickups Colored by Neighborhood", fontsize=20);
 
 
 # %%
-sez_on_province.drop(columns = 'geometry').to_csv("aggregated_data/provinces/01_exports/spatial_sez_on_province_data.csv", 
+sez_on_province.drop(columns = 'geometry').to_csv("aggregated_data/provinces/01_exports/spatial_sez_province_data.csv", 
                                          index = False)
 
 # %%
 res_nogeo = res_dissolve.drop(columns = "geometry")
-res_nogeo.to_csv("aggregated_data/provinces/01_exports/spatial_sez_on_province_sez_map.csv", index = False)
+res_nogeo.to_csv("aggregated_data/provinces/01_exports/sez_province_sez_map.csv", index = False)
 
-# %%
-sez_on_province.plot(
-    column=""
-)
 
 # %%
 
