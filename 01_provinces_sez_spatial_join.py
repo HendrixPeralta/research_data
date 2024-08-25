@@ -28,7 +28,7 @@ sez_gdf = gpd.GeoDataFrame(
         filtered_sez["longitude"], filtered_sez["latitude"]
     )
 )
-
+sez_gdf.to_file("aggregated_data/provinces/01_exports/sez_gdf.shp")
 # %%
 # Shows the columns that have missing values
 sez_gdf.isna().sum()
