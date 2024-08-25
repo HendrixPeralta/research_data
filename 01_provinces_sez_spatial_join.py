@@ -96,7 +96,7 @@ sez_on_province.drop(columns = 'geometry').to_csv("aggregated_data/provinces/01_
 
 # %%
 res_nogeo = res_dissolve.drop(columns = "geometry")
-res_nogeo.to_csv("aggregated_data/provinces/01_exports/sez_province_sez_map.csv", index = False)
+res_nogeo.to_csv("aggregated_data/provinces/01_exports/sez_province_map.csv", index = False)
 
 
 # %%
