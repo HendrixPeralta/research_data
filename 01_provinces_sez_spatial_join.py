@@ -44,7 +44,7 @@ sez_gdf.explore(
 )
 
 #%%timeit
-joined = gpd.sjoin(
+sez_on_province = gpd.sjoin(
     sez_gdf,
     provinces,
     how="right",
@@ -52,14 +52,14 @@ joined = gpd.sjoin(
 )
 
 # %%
-joined.fillna(0, inplace = True)
+sez_on_province.fillna(0, inplace = True)
 
 # %%
-agg_func = {col: "sum" for col in joined.columns}
+agg_func = {col: "sum" for col in sez_on_province.columns}
 del agg_func['geometry']
 
-joined["id"] = pd.to_numeric(joined["id"], errors = "coerce")
-mean_columns = joined.columns[joined.columns.str.contains('sal|id', regex=True)]
+sez_on_province["id"] = pd.to_numeric(sez_on_province["id"], errors = "coerce")
+mean_columns = sez_on_province.columns[sez_on_province.columns.str.contains('sal|id', regex=True)]
 
 for col in mean_columns:
     if col in agg_func:
@@ -67,11 +67,11 @@ for col in mean_columns:
 
 # %%
 #  Check if all the variables are numerical 
-types = joined[joined.columns[joined.columns.str.contains('sal|id')]].dtypes
+types = sez_on_province[sez_on_province.columns[sez_on_province.columns.str.contains('sal|id')]].dtypes
 
 # %%
 # Aggregates the data by id 
-res_dissolve = joined.dissolve(by="id", aggfunc=agg_func)
+res_dissolve = sez_on_province.dissolve(by="id", aggfunc=agg_func)
 
 
 # %%
@@ -79,23 +79,29 @@ cmap = LinearSegmentedColormap.from_list("custom_blue_red", ["blue", "red"])
 
 fig, ax = plt.subplots(figsize=(20, 8))
 
-joined.plot(ax=ax, color="lightgrey", alpha=0.5)
+sez_on_province.plot(ax=ax, color="lightgrey", alpha=0.5)
             
-joined.plot(ax=ax, alpha=0.5, markersize=2, column="ent2015", 
-            legend=True, vmin=1, vmax=30)
+sez_on_province.plot(ax=ax, alpha=0.5,
+            markersize=2, 
+            column="ent2015", 
+            legend=True, 
+            vmin=1, 
+            vmax=30)
 plt.title("Pickups Colored by Neighborhood", fontsize=20);
 
 
 # %%
-joined.drop(columns = 'geometry').to_csv("aggregated_data/provinces/01_exports/spatial_joined_data.csv", 
+sez_on_province.drop(columns = 'geometry').to_csv("aggregated_data/provinces/01_exports/spatial_sez_on_province_data.csv", 
                                          index = False)
 
 # %%
 res_nogeo = res_dissolve.drop(columns = "geometry")
-res_nogeo.to_csv("aggregated_data/provinces/01_exports/spatial_joined_sez_map.csv", index = False)
+res_nogeo.to_csv("aggregated_data/provinces/01_exports/spatial_sez_on_province_sez_map.csv", index = False)
 
 # %%
-
+sez_on_province.plot(
+    column=""
+)
 
 # %%
 
