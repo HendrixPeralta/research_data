@@ -11,18 +11,13 @@ import plotly.express as px
 # %%
 # Reads all the shp map and the aggregated sez data 
 
-hoods = gpd.read_file("/Users/hendrixperalta/Desktop/Research Data Manipulation/research_data/adm2/map_files/adm2_shp.shp")
+geo_municipalities = gpd.read_file("adm2/map_files/adm2_shp.shp")
 
-sez = pd.read_csv("sez_aggregated.csv")
+sez = pd.read_csv("aggregated_data/sez/sez_aggregated.csv")
 sez = sez[sez['latitude'] != 0]
 
 sez.info()
 
-# %%
-sez
-
-# %%
-sample_sez.dtypes.head(10)
 
 # %%
 sample_sez = sez.sample(frac=1)
@@ -33,15 +28,14 @@ sample_sez
 
 # %%
 
-fig = px.timeline(sample_sez, x_start="start", x_end="close", y="name")
-fig.update_yaxes(autorange="reversed")
-fig.xlim()
-fig.show()
+# fig = px.timeline(sample_sez, x_start="start", x_end="close", y="name")
+# fig.update_yaxes(autorange="reversed")
+# fig.xlim()
+# fig.show()
 
 
 # %%
 # Creates a variable len, this variable keep track of the length of operation of the sez 
-
 year_list = list(range(2000, 2017))
 
 for year in year_list:
@@ -54,7 +48,6 @@ for year in year_list:
 
 # %%
 # Shows the position of the sez 
-
 sez.plot(
     kind='scatter', x="longitude", y="latitude"
 )
@@ -62,11 +55,10 @@ sez.plot(
 
 # %%
 # Converts the sez points using the coordinate references in the shp map 
-
-hoods.crs
+geo_municipalities.crs
 
 sez_gdf = gpd.GeoDataFrame(
-    sez, crs = hoods.crs,
+    sez, crs = geo_municipalities.crs,
     geometry = points_from_xy(
         sez["longitude"], sez["latitude"]
     )
@@ -78,7 +70,6 @@ sez_gdf.head()
 #sez_gdf.to_csv("sez_gdf.csv")
 
 # Shows the  location of the sez in a 2d map 
-
 sez_gdf.explore(
     titles = "CartoDB positron",
     cmap = "plasma", 
@@ -91,7 +82,7 @@ sez_gdf.explore(
 #%%timeit
 joined = gpd.sjoin(
     sez_gdf,
-    hoods,
+    geo_municipalities,
     how="right",
     predicate="within"
 )
@@ -131,11 +122,11 @@ plt.title("Pickups Colored by Neighborhood", fontsize=20);
 
 
 # %%
-joined.drop(columns = 'geometry').to_csv("joined.csv")
+joined.drop(columns = 'geometry').to_csv("aggregated_data/municipalities/03_exports/joined.csv")
 
 # %%
 res_nogeo = res_dissolve.drop(columns = "geometry")
-res_nogeo.to_csv("joined_sez_map.csv")
+res_nogeo.to_csv("aggregated_data/municipalities/03_exports/joined_sez_map.csv")
 
 # %%
 
