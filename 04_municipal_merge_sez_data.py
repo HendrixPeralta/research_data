@@ -167,6 +167,26 @@ distributionPlusCoordinationPoints(geo_municipalities,
                                 #    title="The Location of SEZ is Correlated With High NTL Observations"
                                 )
 
+distributionPlusCoordinationPoints(geo_municipalities, 
+                                   "viirs_ntl_annual_v20_avg_masked.2020.mean", 
+                                   breaks, 
+                                   coordinates=[sez_location_2000, sez_location_2005])
 
+distributionPlusCoordinationPoints(geo_municipalities, 
+                                   "viirs_ntl_annual_v20_avg_masked.2020.mean", 
+                                   breaks, 
+                                   coordinates=[sez_location_2000, sez_location_2005, sez_location_2010])
 
+distributionPlusCoordinationPoints(geo_municipalities, 
+                                   "viirs_ntl_annual_v20_avg_masked.2020.mean", 
+                                   breaks, 
+                                   coordinates=[sez_location_2000, sez_location_2005, 
+                                                sez_location_2010, sez_location_2015])
+
+distributionPlusCoordinationPoints(geo_municipalities, 
+                                   "viirs_ntl_annual_v20_avg_masked.2020.mean", 
+                                   breaks, 
+                                   coordinates=[sez_location_2000, sez_location_2005, 
+                                                sez_location_2010, sez_location_2015,
+                                                sez_location_2020])
 # %%
