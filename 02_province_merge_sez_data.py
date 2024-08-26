@@ -135,14 +135,14 @@ fig, ax = plt.subplots(figsize=(15,15))
 
 geo_province.plot(
     column = "ntl2013",
-    scheme="UserDefined",
+    scheme="UserDefined",  
     classification_kwds={"bins":classifier.bins},
-    cmap="OrRd",
+    cmap="OrRd", # Change the color scheme
     edgecolor="k",
     linewidth=0.2,
     legend=True,
-    legend_kwds={"fontsize":18,
-                 "markerscale":1.7},
+    legend_kwds={"fontsize":18, 
+                 "markerscale":1.7}, #Scales the items inside the legend 
     ax=ax
 )
 
