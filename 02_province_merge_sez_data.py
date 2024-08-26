@@ -131,15 +131,18 @@ type(geo_province)
 # %%
 classifier = mapclassify.NaturalBreaks(geo_province["ntl2013"], k=5)
 # %%
-fig, ax = plt.subplots(figsize=(10,10))
-
+fig, ax = plt.subplots(figsize=(15,15))
+plt.legend(prop={"size":15})
 geo_province.plot(
     column = "ntl2013",
     scheme="UserDefined",
     classification_kwds={"bins":classifier.bins},
     cmap="OrRd",
     edgecolor="k",
+    linewidth=0.2,
     legend=True,
+    legend_kwds={"fontsize":18,
+                 "markerscale":1.7},
     ax=ax
 )
 
@@ -147,9 +150,15 @@ sez_location.plot(
     ax=ax,
     color="blue",
     marker="o",
-    markersize=50,
+    markersize=40,
     # label=
 
     )
+
+ax.set_axis_off();
+ax.set_title("The Location of SEZ is Correlated With High NTL Observations",
+             pad=15,
+             fontsize=22,
+             fontdict={"weight":"bold"})
 
 # %%
