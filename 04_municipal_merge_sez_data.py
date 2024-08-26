@@ -9,6 +9,7 @@ import matplotlib.colors as colors
 from matplotlib.colors import LinearSegmentedColormap
 
 import mapclassify
+import pygeoda
 
 # %%
 # Read geospatial data
@@ -115,14 +116,15 @@ geo_province = geo_municipalities.merge(ntl,
                                right_on="id")
 type(geo_province)
 # %%
-classifier = mapclassify.NaturalBreaks(geo_province["viirs_ntl_annual_v20_avg_masked.2016.mean"], k=5)
+# classifier = mapclassify.NaturalBreaks(geo_province["viirs_ntl_annual_v20_avg_masked.2020.mean"], k=5)
+breaks = pygeoda.natural_breaks(6, geo_province["viirs_ntl_annual_v20_avg_masked.2020.mean"])
 # %%
 fig, ax = plt.subplots(figsize=(15,15))
 
 geo_province.plot(
-    column = "viirs_ntl_annual_v20_avg_masked.2020.mean",
+    column = "viirs_ntl_annual_v20_avg_masked.2013.mean",
     scheme="UserDefined",  
-    classification_kwds={"bins":classifier.bins},
+    classification_kwds={"bins":breaks},
     cmap="OrRd", # Change the color scheme
     edgecolor="k",
     linewidth=0.2,
