@@ -127,8 +127,8 @@ breaks = pygeoda.natural_breaks(6, geo_municipalities["viirs_ntl_annual_v20_avg_
 # %%
 
  # %%
-def distributionPlusCoordinationPoints(geo_map, column, breaks, coordinates, title=None, period=None):
-    fig, ax = plt.subplots(figsize=(15,15))
+def distributionPlusCoordinationPoints(geo_map, column, breaks, coordinates, title=None, period=None, ax=None):
+    # fig, ax = plt.subplots(figsize=(15,15))
 
     color_list = ["blue", "green", "black", "grey"]
 
@@ -160,33 +160,58 @@ def distributionPlusCoordinationPoints(geo_map, column, breaks, coordinates, tit
              fontsize=22,
              fontdict={"weight":"bold"})
 # %%
+
+
+fig, axes = plt.subplots(2, 3, figsize=(50, 30))
+
+# Flatten the array of axes
+ax1, ax2, ax3, ax4, ax5, ax6 = axes.flat
+
+
 distributionPlusCoordinationPoints(geo_municipalities, 
                                    "viirs_ntl_annual_v20_avg_masked.2020.mean", 
                                    breaks, 
                                    coordinates=[sez_location_2000], 
-                                #    title="The Location of SEZ is Correlated With High NTL Observations"
+                                   title="The Location of SEZ is Correlated With High NTL Observations in 2000",
+                                   ax=ax1
                                 )
 
 distributionPlusCoordinationPoints(geo_municipalities, 
                                    "viirs_ntl_annual_v20_avg_masked.2020.mean", 
                                    breaks, 
-                                   coordinates=[sez_location_2000, sez_location_2005])
+                                   coordinates=[sez_location_2000, sez_location_2005],
+                                   title="The Location of SEZ is Correlated With High NTL Observations in 2005",
+                                   ax=ax2
+                                   )
 
 distributionPlusCoordinationPoints(geo_municipalities, 
                                    "viirs_ntl_annual_v20_avg_masked.2020.mean", 
                                    breaks, 
-                                   coordinates=[sez_location_2000, sez_location_2005, sez_location_2010])
+                                   coordinates=[sez_location_2000, sez_location_2005, sez_location_2010],
+                                   title="The Location of SEZ is Correlated With High NTL Observations in 2010",
+                                   ax=ax3
+                                   )
 
 distributionPlusCoordinationPoints(geo_municipalities, 
                                    "viirs_ntl_annual_v20_avg_masked.2020.mean", 
                                    breaks, 
                                    coordinates=[sez_location_2000, sez_location_2005, 
-                                                sez_location_2010, sez_location_2015])
+                                                sez_location_2010, sez_location_2015],
+                                   title="The Location of SEZ is Correlated With High NTL Observations in 2015",
+                                   ax=ax4            
+                                    )
 
 distributionPlusCoordinationPoints(geo_municipalities, 
                                    "viirs_ntl_annual_v20_avg_masked.2020.mean", 
                                    breaks, 
                                    coordinates=[sez_location_2000, sez_location_2005, 
                                                 sez_location_2010, sez_location_2015,
-                                                sez_location_2020])
+                                                sez_location_2020],
+                                    title="The Location of SEZ is Correlated With High NTL Observations in 2020",
+                                   ax=ax5
+                                    )
+
+fig.delaxes(ax6)
+plt.tight_layout()
+plt.show()
 # %%
