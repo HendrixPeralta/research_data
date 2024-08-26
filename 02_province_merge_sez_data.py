@@ -132,7 +132,7 @@ type(geo_province)
 classifier = mapclassify.NaturalBreaks(geo_province["ntl2013"], k=5)
 # %%
 fig, ax = plt.subplots(figsize=(15,15))
-plt.legend(prop={"size":15})
+
 geo_province.plot(
     column = "ntl2013",
     scheme="UserDefined",
