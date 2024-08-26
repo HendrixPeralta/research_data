@@ -156,4 +156,30 @@ ax.set_title("The Location of SEZ is Correlated With High NTL Observations",
              fontdict={"weight":"bold"})
 
  # %%
+def distributionPlusCoordinationPoints(geo_map, column, breaks, coordinates):
+    fig, ax = plt.subplots(figsize=(15,15))
+
+    geo_map.plot(
+        column = column,
+        scheme="UserDefined",  
+        classification_kwds={"bins":breaks},
+        cmap="OrRd", # Change the color scheme
+        edgecolor="k",
+        linewidth=0.2,
+        legend=True,
+        legend_kwds={"fontsize":18, 
+                    "markerscale":1.7}, #Scales the items inside the legend 
+        ax=ax
+    )
+
+    coordinates.plot(
+        ax=ax,
+        color="blue",
+        marker="o",
+        markersize=40,
+        # label=
+
+        )
+# %%
+distributionPlusCoordinationPoints(geo_municipalities, "viirs_ntl_annual_v20_avg_masked.2020.mean", breaks, sez_location)
 # %%
