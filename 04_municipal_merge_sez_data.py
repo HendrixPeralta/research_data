@@ -180,6 +180,11 @@ def distributionPlusCoordinationPoints(geo_map, column, breaks, coordinates):
         # label=
 
         )
+    ax.set_axis_off();
+    ax.set_title("The Location of SEZ is Correlated With High NTL Observations",
+             pad=15,
+             fontsize=22,
+             fontdict={"weight":"bold"})
 # %%
 distributionPlusCoordinationPoints(geo_municipalities, "viirs_ntl_annual_v20_avg_masked.2020.mean", breaks, sez_location)
 # %%
