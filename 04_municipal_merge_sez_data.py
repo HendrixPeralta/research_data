@@ -125,38 +125,9 @@ type(geo_municipalities)
 # classifier = mapclassify.NaturalBreaks(geo_municipalities["viirs_ntl_annual_v20_avg_masked.2020.mean"], k=5)
 breaks = pygeoda.natural_breaks(6, geo_municipalities["viirs_ntl_annual_v20_avg_masked.2020.mean"])
 # %%
-fig, ax = plt.subplots(figsize=(15,15))
-
-geo_municipalities.plot(
-    column = "viirs_ntl_annual_v20_avg_masked.2013.mean",
-    scheme="UserDefined",  
-    classification_kwds={"bins":breaks},
-    cmap="OrRd", # Change the color scheme
-    edgecolor="k",
-    linewidth=0.2,
-    legend=True,
-    legend_kwds={"fontsize":18, 
-                 "markerscale":1.7}, #Scales the items inside the legend 
-    ax=ax
-)
-
-sez_location.plot(
-    ax=ax,
-    color="blue",
-    marker="o",
-    markersize=40,
-    # label=
-
-    )
-
-ax.set_axis_off();
-ax.set_title("The Location of SEZ is Correlated With High NTL Observations",
-             pad=15,
-             fontsize=22,
-             fontdict={"weight":"bold"})
 
  # %%
-def distributionPlusCoordinationPoints(geo_map, column, breaks, coordinates):
+def distributionPlusCoordinationPoints(geo_map, column, breaks, coordinates, title=None):
     fig, ax = plt.subplots(figsize=(15,15))
 
     geo_map.plot(
@@ -181,10 +152,18 @@ def distributionPlusCoordinationPoints(geo_map, column, breaks, coordinates):
 
         )
     ax.set_axis_off();
-    ax.set_title("The Location of SEZ is Correlated With High NTL Observations",
+    ax.set_title(title,
              pad=15,
              fontsize=22,
              fontdict={"weight":"bold"})
 # %%
-distributionPlusCoordinationPoints(geo_municipalities, "viirs_ntl_annual_v20_avg_masked.2020.mean", breaks, sez_location)
+distributionPlusCoordinationPoints(geo_municipalities, 
+                                   column="viirs_ntl_annual_v20_avg_masked.2020.mean", 
+                                   breaks=breaks, 
+                                   coordinates=sez_location, 
+                                   title="The Location of SEZ is Correlated With High NTL Observations")
+
+distributionPlusCoordinationPoints(geo_municipalities, "viirs_ntl_annual_v20_avg_masked.2020.mean", breaks, sez_location_2000)
+distributionPlusCoordinationPoints(geo_municipalities, "viirs_ntl_annual_v20_avg_masked.2020.mean", breaks, sez_location_2005)
+distributionPlusCoordinationPoints(geo_municipalities, "viirs_ntl_annual_v20_avg_masked.2020.mean", breaks, sez_location_2010)
 # %%
