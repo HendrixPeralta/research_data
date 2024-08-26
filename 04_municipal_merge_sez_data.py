@@ -17,6 +17,12 @@ geo_municipalities = gpd.read_file("adm2/map_files/adm2_shp.shp")
 # sez_data = pd.read_csv("aggregated_data/provinces/01_exports/sez_province_map.csv")
 sez_location = gpd.read_file("aggregated_data/provinces/01_exports/sez_gdf.shp")
 
+sez_location_2000 = gpd.read_file("sez_location/sez_2000/sez_2000.shp")
+sez_location_2005 = gpd.read_file("sez_location/sez_2005/sez_2005.shp")
+sez_location_2010 = gpd.read_file("sez_location/sez_2010/sez_2010.shp")
+sez_location_2015 = gpd.read_file("sez_location/sez_2015/sez_2015.shp")
+sez_location_2020 = gpd.read_file("sez_location/sez_2020/sez_2020.shp")
+
 # %%
 # Read and manipulation of the population data/
 # pop = pd.read_csv("/Users/hendrixperalta/Desktop/Research Data Manipulation/research_data/adm1/population/p_landscan_pop.csv")
@@ -111,17 +117,17 @@ ntl.columns
 
 # %%
 geo_municipalities["id"] = geo_municipalities["id"].astype(int)
-geo_province = geo_municipalities.merge(ntl,
+geo_municipalities = geo_municipalities.merge(ntl,
                                left_on="id",
                                right_on="id")
-type(geo_province)
+type(geo_municipalities)
 # %%
-# classifier = mapclassify.NaturalBreaks(geo_province["viirs_ntl_annual_v20_avg_masked.2020.mean"], k=5)
-breaks = pygeoda.natural_breaks(6, geo_province["viirs_ntl_annual_v20_avg_masked.2020.mean"])
+# classifier = mapclassify.NaturalBreaks(geo_municipalities["viirs_ntl_annual_v20_avg_masked.2020.mean"], k=5)
+breaks = pygeoda.natural_breaks(6, geo_municipalities["viirs_ntl_annual_v20_avg_masked.2020.mean"])
 # %%
 fig, ax = plt.subplots(figsize=(15,15))
 
-geo_province.plot(
+geo_municipalities.plot(
     column = "viirs_ntl_annual_v20_avg_masked.2013.mean",
     scheme="UserDefined",  
     classification_kwds={"bins":breaks},
@@ -150,3 +156,4 @@ ax.set_title("The Location of SEZ is Correlated With High NTL Observations",
              fontdict={"weight":"bold"})
 
  # %%
+# %%
