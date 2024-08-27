@@ -131,6 +131,7 @@ def distributionPlusCoordinationPoints(geo_map, column, breaks, coordinates, tit
     # fig, ax = plt.subplots(figsize=(15,15))
 
     color_list = ["#87CEEB", "#1E90FF", "#4169E1", "#4682B4", "#483D8B"]
+    years = [2000, 2005, 2010, 2015, 2020]
 
     geo_map.plot(
         column = column,
@@ -145,21 +146,38 @@ def distributionPlusCoordinationPoints(geo_map, column, breaks, coordinates, tit
         ax=ax,
     )
 
-    for coordinate, color in zip(coordinates,color_list):
+    leg1 = ax.get_legend()
+
+    for coordinate, color, year in zip(coordinates,color_list, years):
         coordinate.plot(
             ax=ax,
             color=color,
             marker="o",
             markersize=170,
-            # label=
+            label=year,
+            legend_kwds={"fontsize":30, 
+                    "markerscale":2.5,
+                    "loc":"lower right"}
         )
 
+    plt.legend(title='Starting year', 
+                fontsize=30, 
+                title_fontsize='30',
+                markerscale=2.5, 
+                loc='lower right',
+                ncol=5)
+    ax.add_artist(leg1)
+
+    # legend1 = ax.legend(handles=[p1], loc="upper right")
+    # legend2 = plt.legend(handles=[p2], loc="lowerright")
+
+    # ax.add_artist(legend1)
 
     ax.set_axis_off();
     ax.set_title(title,
              pad=15,
              fontsize=40,
-             fontdict={"weight":"bold"})
+             fontdict={"weight":"bold"});
 # %%
 
 
