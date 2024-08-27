@@ -235,3 +235,112 @@ plt.tight_layout()
 # fig.margins(0.05, 0.1)
 plt.show()
 # %%
+
+# =================================================================================================================
+fig, ax = plt.subplots()
+
+geo_municipalities.plot(
+        column = "ntl_2020",
+        scheme="UserDefined",  
+        classification_kwds={"bins":breaks},
+        cmap="OrRd", # Change the color scheme
+        edgecolor="k",
+        linewidth=0.2,
+        legend=True,
+        ax=ax)
+
+sez_location_2020.plot(
+            ax=ax,
+            color="yellow",
+            marker="o",
+            markersize=10)
+
+ax.set_axis_off();
+ax.set_title("NTL Distribution and SEZ location",
+            pad=15,
+            fontsize=10,
+            fontdict={"weight":"bold"});
+# %%
+
+def distributionPlusCoordinatePoints(geo_map, column, breaks, 
+                                    coordinates, title=None, 
+                                    ax=None):
+    
+    # geo_map = geoDataFrame for the cluster classification
+    geo_map.plot(
+        column = column,
+        scheme="UserDefined",  
+        classification_kwds={"bins":breaks},
+        cmap="OrRd", 
+        edgecolor="k",
+        linewidth=0.2,
+        legend=True,
+        
+        # Scales the legend
+        legend_kwds={"fontsize":30, 
+                    "markerscale":3,
+                    "title":"Night Time Lights",
+                    "title_fontsize":30}, #Scales the items inside the legend 
+        ax=ax,
+    )
+
+    # Coordinates = Coordinate point to plot on top of the map 
+    coordinates.plot(
+        ax=ax,
+        color="black",
+        marker="o",
+        markersize=190, # Scales the marker size
+        # label=year,
+    )
+    ax.set_axis_off();
+    ax.set_title(title,
+             pad=15,
+             fontsize=40,
+             fontdict={"weight":"bold"});
+
+
+fig, axes = plt.subplots(2, 2, figsize=(50, 40))
+ax1, ax2, ax3, ax4 = axes.flat
+
+distributionPlusCoordinatePoints(geo_municipalities, 
+                                   "ntl_2005", 
+                                   breaks, 
+                                   coordinates=sez_location_2005,
+                                   title="2005",
+                                   ax=ax1
+                                   )
+
+distributionPlusCoordinatePoints(geo_municipalities, 
+                                   "ntl_2010", 
+                                   breaks, 
+                                   coordinates=sez_location_2010,
+                                   title="2010",
+                                   ax=ax2
+                                   )
+
+distributionPlusCoordinatePoints(geo_municipalities, 
+                                   "ntl_2015", 
+                                   breaks, 
+                                   coordinates=sez_location_2015,
+                                   title="2015",
+                                   ax=ax3            
+                                    )
+
+distributionPlusCoordinatePoints(geo_municipalities, 
+                                   "ntl_2020", 
+                                   breaks, 
+                                   coordinates=sez_location_2020,
+                                    title="2020",
+                                   ax=ax4
+                                    )
+
+
+fig.suptitle("The Location of SEZ is Correlated With High NTL Observations",
+                fontsize=70,
+                fontdict={"weight":"bold"});
+plt.subplots_adjust(wspace=0.1)
+plt.tight_layout()
+# fig.margins(0.05, 0.1)
+plt.show()
+# %%
+
