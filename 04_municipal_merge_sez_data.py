@@ -142,7 +142,9 @@ def distributionPlusCoordinationPoints(geo_map, column, breaks, coordinates, tit
         linewidth=0.2,
         legend=True,
         legend_kwds={"fontsize":30, 
-                    "markerscale":3}, #Scales the items inside the legend 
+                    "markerscale":3,
+                    "title":"Night Time Lights",
+                    "title_fontsize":30}, #Scales the items inside the legend 
         ax=ax,
     )
 
@@ -160,7 +162,7 @@ def distributionPlusCoordinationPoints(geo_map, column, breaks, coordinates, tit
                     "loc":"lower right"}
         )
 
-    ax.legend(title='Starting year', 
+    ax.legend(title='New SEZs (5 years period)', 
                 fontsize=30, 
                 title_fontsize='30',
                 markerscale=2.5, 
@@ -238,5 +240,6 @@ fig.suptitle("The Location of SEZ is Correlated With High NTL Observations",
                 fontdict={"weight":"bold"});
 plt.subplots_adjust(wspace=0.1)
 plt.tight_layout()
+# fig.margins(0.05, 0.1)
 plt.show()
 # %%
