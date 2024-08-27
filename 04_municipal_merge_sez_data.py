@@ -168,13 +168,8 @@ def distributionPlusCoordinatePoints(geo_map, column, breaks, coordinates, title
                 markerscale=2.5, 
                 loc='lower right',
                 ncol=5)
-    ax.add_artist(leg1)
-
-    # legend1 = ax.legend(handles=[p1], loc="upper right")
-    # legend2 = plt.legend(handles=[p2], loc="lowerright")
-
-    # ax.add_artist(legend1)
-
+    
+    ax.add_artist(leg1) # adds the first legend again
     ax.set_axis_off();
     ax.set_title(title,
              pad=15,
@@ -185,10 +180,7 @@ def distributionPlusCoordinatePoints(geo_map, column, breaks, coordinates, title
 
 
 fig, axes = plt.subplots(2, 2, figsize=(50, 40))
-
-
-# Flatten the array of axes
-ax1, ax2, ax3, ax4 = axes.flat
+ax1, ax2, ax3, ax4 = axes.flat # Flatten the array of axes
 
 
 # distributionPlusCoordinatePoints(geo_municipalities, 
