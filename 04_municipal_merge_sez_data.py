@@ -127,7 +127,7 @@ breaks = pygeoda.natural_breaks(6, geo_municipalities["ntl_2020"])
 # %%
 
  # %%
-def distributionPlusCoordinationPoints(geo_map, column, breaks, coordinates, title=None, period=None, ax=None):
+def distributionPlusCoordinatePoints(geo_map, column, breaks, coordinates, title=None, period=None, ax=None):
     # fig, ax = plt.subplots(figsize=(15,15))
 
     color_list = ["#87CEEB", "#1E90FF", "#4169E1", "#4682B4", "#483D8B"]
@@ -191,7 +191,7 @@ fig, axes = plt.subplots(2, 2, figsize=(50, 40))
 ax1, ax2, ax3, ax4 = axes.flat
 
 
-# distributionPlusCoordinationPoints(geo_municipalities, 
+# distributionPlusCoordinatePoints(geo_municipalities, 
 #                                    "ntl_2000", 
 #                                    breaks, 
 #                                    coordinates=[sez_location_2000], 
@@ -199,7 +199,7 @@ ax1, ax2, ax3, ax4 = axes.flat
 #                                    ax=ax1
 #                                 )
 
-distributionPlusCoordinationPoints(geo_municipalities, 
+distributionPlusCoordinatePoints(geo_municipalities, 
                                    "ntl_2005", 
                                    breaks, 
                                    coordinates=[sez_location_2000, sez_location_2005],
@@ -207,7 +207,7 @@ distributionPlusCoordinationPoints(geo_municipalities,
                                    ax=ax1
                                    )
 
-distributionPlusCoordinationPoints(geo_municipalities, 
+distributionPlusCoordinatePoints(geo_municipalities, 
                                    "ntl_2010", 
                                    breaks, 
                                    coordinates=[sez_location_2000, sez_location_2005, sez_location_2010],
@@ -215,7 +215,7 @@ distributionPlusCoordinationPoints(geo_municipalities,
                                    ax=ax2
                                    )
 
-distributionPlusCoordinationPoints(geo_municipalities, 
+distributionPlusCoordinatePoints(geo_municipalities, 
                                    "ntl_2015", 
                                    breaks, 
                                    coordinates=[sez_location_2000, sez_location_2005, 
@@ -224,7 +224,7 @@ distributionPlusCoordinationPoints(geo_municipalities,
                                    ax=ax3            
                                     )
 
-distributionPlusCoordinationPoints(geo_municipalities, 
+distributionPlusCoordinatePoints(geo_municipalities, 
                                    "ntl_2020", 
                                    breaks, 
                                    coordinates=[sez_location_2000, sez_location_2005, 
