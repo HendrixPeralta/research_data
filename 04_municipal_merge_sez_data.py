@@ -160,7 +160,7 @@ def distributionPlusCoordinationPoints(geo_map, column, breaks, coordinates, tit
                     "loc":"lower right"}
         )
 
-    plt.legend(title='Starting year', 
+    ax.legend(title='Starting year', 
                 fontsize=30, 
                 title_fontsize='30',
                 markerscale=2.5, 
@@ -178,6 +178,7 @@ def distributionPlusCoordinationPoints(geo_map, column, breaks, coordinates, tit
              pad=15,
              fontsize=40,
              fontdict={"weight":"bold"});
+    
 # %%
 
 
@@ -200,7 +201,7 @@ distributionPlusCoordinationPoints(geo_municipalities,
                                    "ntl_2005", 
                                    breaks, 
                                    coordinates=[sez_location_2000, sez_location_2005],
-                                   title="The Location of SEZ is Correlated With High NTL Observations in 2005",
+                                   title="2005",
                                    ax=ax1
                                    )
 
@@ -208,7 +209,7 @@ distributionPlusCoordinationPoints(geo_municipalities,
                                    "ntl_2010", 
                                    breaks, 
                                    coordinates=[sez_location_2000, sez_location_2005, sez_location_2010],
-                                   title="The Location of SEZ is Correlated With High NTL Observations in 2010",
+                                   title="2010",
                                    ax=ax2
                                    )
 
@@ -217,7 +218,7 @@ distributionPlusCoordinationPoints(geo_municipalities,
                                    breaks, 
                                    coordinates=[sez_location_2000, sez_location_2005, 
                                                 sez_location_2010, sez_location_2015],
-                                   title="The Location of SEZ is Correlated With High NTL Observations in 2015",
+                                   title="2015",
                                    ax=ax3            
                                     )
 
@@ -227,11 +228,14 @@ distributionPlusCoordinationPoints(geo_municipalities,
                                    coordinates=[sez_location_2000, sez_location_2005, 
                                                 sez_location_2010, sez_location_2015,
                                                 sez_location_2020],
-                                    title="The Location of SEZ is Correlated With High NTL Observations in 2020",
+                                    title="2020",
                                    ax=ax4
                                     )
 
 # fig.delaxes(ax6)
+fig.suptitle("The Location of SEZ is Correlated With High NTL Observations",
+                fontsize=70,
+                fontdict={"weight":"bold"});
 plt.subplots_adjust(wspace=0.1)
 plt.tight_layout()
 plt.show()
