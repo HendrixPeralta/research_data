@@ -4,6 +4,7 @@ import pandas as pd
 import geopandas as gpd
 from geopandas import points_from_xy
 
+
 import matplotlib.pyplot as plt
 import matplotlib.colors as colors
 from matplotlib.colors import LinearSegmentedColormap
@@ -18,7 +19,7 @@ sez_location = gpd.read_file("aggregated_data/provinces/01_exports/sez_gdf.shp")
 
 # %%
 # Read and manipulation of the population data/
-pop = pd.read_csv("/Users/hendrixperalta/Desktop/Research Data Manipulation/research_data/adm1/population/p_landscan_pop.csv")
+pop = pd.read_csv("adm1/population/p_landscan_pop.csv")
 pop.rename(columns = {"asdf_id" : "id"}, inplace=True)
 column_filter = pop[pop.columns[pop.columns.str.contains("land")]]
 
@@ -33,7 +34,7 @@ pop_sum.columns = pop_sum.columns.str.replace(".sum$", "", regex=True)
 
 # %%
 # Read and manipulation of the temperature data
-temp = pd.read_csv("/Users/hendrixperalta/Desktop/Research Data Manipulation/research_data/adm1/temperature/p_landsurface_temp.csv")
+temp = pd.read_csv("adm1/temperature/p_landsurface_temp.csv")
 temp.rename(columns = {"asdf_id" : "id"}, inplace=True)
 temp_filter = temp[temp.columns[temp.columns.str.contains("mod11c3_061")]]
 temp_filter = temp_filter[temp_filter.columns[temp_filter.columns.str.contains(".mean.1")]]
@@ -48,43 +49,43 @@ temp = temp[temp.columns[temp.columns.str.contains("temp|id")]]
 
 # %%
 # Read and manipulation of the Agriculture land cover data
-agri = pd.read_csv("/Users/hendrixperalta/Desktop/Research Data Manipulation/research_data/adm1/landcover/agriculture_land_wide_adm1.csv")
+agri = pd.read_csv("adm1/landcover/agriculture_land_wide_adm1.csv")
 agri.rename(columns = {"provinceCode" : "id"}, inplace=True)
 agri = agri[agri.columns[agri.columns.str.contains("agr|id")]]
 agri.columns
 
 # %%
 # Read and manupulation of the Urban land cover data
-urba = pd.read_csv("/Users/hendrixperalta/Desktop/Research Data Manipulation/research_data/adm1/landcover/urban_land_wide_adm1.csv")
+urba = pd.read_csv("adm1/landcover/urban_land_wide_adm1.csv")
 urba.rename(columns = {"provinceCode" : "id"}, inplace=True)
 urba = urba[urba.columns[urba.columns.str.contains("urb|id")]]
 urba.columns
 
 # %%
 # Read and manipulation of the NPP NTL data 
-ntl = pd.read_csv("/Users/hendrixperalta/Desktop/Research Data Manipulation/research_data/adm1/ntl/wide_ntl_adm1_2000_2021.csv")
+ntl = pd.read_csv("adm1/ntl/wide_ntl_adm1_2000_2021.csv")
 ntl = ntl[ntl.columns[ntl.columns.str.contains("ntl|id")]]
 ntl.columns
 
 # %%
 # Read and manipulation of the Electricity consumption revised GDP 
-egdp = pd.read_csv("/Users/hendrixperalta/Desktop/Research Data Manipulation/research_data/adm1/ntl/egdp_sum_wide_00-16.csv")
+egdp = pd.read_csv("adm1/ntl/egdp_sum_wide_00-16.csv")
 egdp = egdp[egdp.columns[egdp.columns.str.contains("egdp|id")]]
 #egdp.columns
 
 # %%
 # Education dataset 
-edu = pd.read_csv("/Users/hendrixperalta/Desktop/Research Data Manipulation/research_data/adm1/education/education.csv")
+edu = pd.read_csv("adm1/education/education.csv")
 edu.columns
 
 # %%
 # Read and manipulation of the health data
-health = pd.read_csv("/Users/hendrixperalta/Desktop/Research Data Manipulation/research_data/adm1/health/health.csv")
+health = pd.read_csv("adm1/health/health.csv")
 #health.columns
 
 # %%
 # Read and manipulation of the Social security data
-soci = pd.read_csv("/Users/hendrixperalta/Desktop/Research Data Manipulation/research_data/adm1/public_safety/social_security.csv")
+soci = pd.read_csv("adm1/public_safety/social_security.csv")
 #soci.columns
 
 # %%
