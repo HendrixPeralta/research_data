@@ -17,11 +17,11 @@ geo_municipalities = gpd.read_file("adm2/map_files/adm2_shp.shp")
 # sez_data = pd.read_csv("aggregated_data/provinces/01_exports/sez_province_map.csv")
 sez_location = gpd.read_file("aggregated_data/provinces/01_exports/sez_gdf.shp")
 
-sez_location_2000 = gpd.read_file("sez_location/sez_2000/sez_2000.shp")
-sez_location_2005 = gpd.read_file("sez_location/sez_2005/sez_2005.shp")
-sez_location_2010 = gpd.read_file("sez_location/sez_2010/sez_2010.shp")
-sez_location_2015 = gpd.read_file("sez_location/sez_2015/sez_2015.shp")
-sez_location_2020 = gpd.read_file("sez_location/sez_2020/sez_2020.shp")
+sez_location_2000 = gpd.read_file("sez_data/sez_location/sez_2000/sez_2000.shp")
+sez_location_2005 = gpd.read_file("sez_data/sez_location/sez_2005/sez_2005.shp")
+sez_location_2010 = gpd.read_file("sez_data/sez_location/sez_2010/sez_2010.shp")
+sez_location_2015 = gpd.read_file("sez_data/sez_location/sez_2015/sez_2015.shp")
+sez_location_2020 = gpd.read_file("sez_data/sez_location/sez_2020/sez_2020.shp")
 
 # %%
 # Read and manipulation of the population data/
