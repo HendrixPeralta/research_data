@@ -39,7 +39,7 @@ sample_sez
 year_list = list(range(2000, 2017))
 
 for year in year_list:
-    conditions = (sez["ent"+str(year)])
+    conditions = (sez["ent"+str(year)]>0)
     # Calculate operation years only if conditions are met
     sez["len" + str(year)] = np.where(conditions, year - sez['start'], 0)
 

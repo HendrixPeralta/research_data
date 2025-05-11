@@ -8,7 +8,7 @@ from matplotlib.colors import LinearSegmentedColormap
 
 # %%
 provinces = gpd.read_file("adm1/adm1_map/adm1.shp")
-sez = pd.read_csv("aggregated_data/municipalities/sez_aggregated.csv")
+sez = pd.read_csv("extracted_data/sez_data/sez_aggregated.csv")
 
 # %%
 # Filter the sez that do not have location
@@ -28,7 +28,8 @@ sez_gdf = gpd.GeoDataFrame(
         filtered_sez["longitude"], filtered_sez["latitude"]
     )
 )
-sez_gdf.to_file("aggregated_data/provinces/01_exports/sez_gdf.shp")
+#sez_gdf.to_file("aggregated_data/provinces/01_exports/sez_gdf.shp")
+sez_gdf.to_file("extracted_data/geo_data/sez_location.shp")
 # %%
 # Shows the columns that have missing values
 sez_gdf.isna().sum()
