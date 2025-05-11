@@ -1,0 +1,62 @@
+code,park,ent13,ent14,absolute variation
+DOM-AND,andrés,1,1,0
+DOM-BAN,baní,5,7,2
+DOM-BAR,barahona,1,1,0
+DOM-VIS,bell a vista,1,1,0
+DOM-BON,bonao,3,3,0
+DOM-CIP,caribbean ind. park,23,27,4
+DOM-CHE,chemtec,8,7,-1
+DOM-CIB,cibernético,9,6,-3
+DOM-CON,conacado ind. park,1,1,0
+DOM-DOS,dos rios,1,1,0
+DOM-LIM,el limonal,4,6,2
+DOM-SEI,el seibo,2,2,0
+DOM-ESP,esperanza,5,6,1
+DOM-EXC,excel boca chica,1,1,0
+DOM-GLO,global zona f ranca industrial,2,2,0
+DOM-GUR,gurabo,8,8,0
+DOM-HAI,hainamosa,5,4,-1
+DOM-HAT,hato mayor,1,1,0
+DOM-HAN,hato nuevo,5,5,0
+DOM-INT,interexport f ree zone,1,1,0
+DOM-ARM,la armería,6,6,0
+DOM-HIS,la hispaniola,1,1,0
+DOM-PAL,la palma,5,5,0
+DOM-ROM,la romana i,6,6,0
+DOM-RII,la romana ii,4,5,1
+DOM-VEG,la v ega,18,16,-2
+DOM-LAS,las américas,24,24,0
+DOM-ALC,los alcarrizos,13,12,-1
+DOM-RIE,los rieles,1,1,0
+DOM-ROB,los robles,1,1,0
+DOM-MOC,moca,11,9,-2
+DOM-MUL,multimodal caucedo,4,4,0
+DOM-MUT,multiparques,2,2,0
+DOM-NAV,navarrete,4,5,1
+DOM-NIG,nigua,8,7,-1
+DOM-PAB,palmar abajo,1,1,0
+DOM-PAM,palmarejo,5,5,0
+DOM-YAQ,parque ind. y de servicios y aque,2,2,0
+DOM-SLI,parque tecnológico de santiago,8,8,0
+DOM-HER,parque z.f. tecnológica de herrera,1,1,0
+DOM-PED,pedernales,1,1,0
+DOM-PER,perlav,3,3,0
+DOM-PIS,pisano,26,27,1
+DOM-PUE,puerto plata,6,6,0
+DOM-QUI,quisqueya,1,1,0
+DOM-CRI,san cristóbal (itabo),39,43,4
+DOM-FRA,san f rancisco de macorís,2,2,0
+DOM-ISI,san isidro,32,34,2
+DOM-MAC,san pedro de macorís,39,39,0
+DOM-S12,santiago,74,74,0
+DOM-JAN,santiago - jánico,2,3,1
+DOM-TAM,tamboril,8,10,2
+DOM-ALT,v ill a altagracia,4,4,0
+DOM-MEL,v ill a mella,6,6,0
+DOM-CDF,parque industrial cdf,0,1,1
+DOM-KGC,parque ind. kg compañía comercial,0,1,1
+DOM-EMI,zona f ranca ind. emimar,0,3,3
+DOM-SUR,zona f ranca ind. del sur,0,1,1
+DOM-INF,z.f. ind. y de servicios norte infiesto,0,1,1
+DOM-SAG,zona f ranca ind. sag,2,1,-1
+DOM-ZFE,zonas f rancas especiales,145,141,-4
