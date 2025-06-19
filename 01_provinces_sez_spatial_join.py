@@ -10,6 +10,8 @@ from matplotlib.colors import LinearSegmentedColormap
 provinces = gpd.read_file("adm1/adm1_map/adm1.shp")
 sez = pd.read_csv("extracted_data/sez_data/sez_aggregated.csv")
 
+provinces.to_file('adm1/adm1_map/adm1.geojson', driver='GeoJSON')
+
 # %%
 # Filter the sez that do not have location
 filtered_sez = sez[sez['latitude'] != 0]
