@@ -14,6 +14,8 @@ import pygeoda
 # %%
 # Read geospatial data
 geo_municipalities = gpd.read_file("adm2/map_files/adm2_shp.shp")
+municipalities_names = pd.read_csv("adm2/map_files/municipalities_names.csv")
+geo_municipalities["shapeName"] = municipalities_names["municipality"]
 # sez_data = pd.read_csv("aggregated_data/provinces/01_exports/sez_province_map.csv")
 sez_location = gpd.read_file("aggregated_data/provinces/01_exports/sez_gdf.shp")
 
@@ -229,7 +231,7 @@ distributionPlusCoordinatePoints(geo_municipalities,
 # fig.delaxes(ax6)
 fig.suptitle("The Location of SEZ is Correlated With High NTL Observations",
                 fontsize=70,
-                fontdict={"weight":"bold"});
+                fontweight="bold");
 plt.subplots_adjust(wspace=0.1)
 plt.tight_layout()
 # fig.margins(0.05, 0.1)
