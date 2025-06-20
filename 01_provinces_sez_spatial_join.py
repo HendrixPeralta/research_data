@@ -11,6 +11,9 @@ provinces = gpd.read_file("adm1/adm1_map/adm1.shp")
 sez = pd.read_csv("extracted_data/sez_data/sez_aggregated.csv")
 provinces_name = pd.read_csv("adm1/adm1_map/provinces_names.csv")
 provinces["shapeName"]=provinces_name["province"]
+
+
+sez_long = pd.read_csv("extracted_data/sez_data/sez_aggregated_long.csv")
 # %%
 provinces.to_file('adm1/adm1_map/adm1.geojson', driver='GeoJSON')
 
@@ -34,6 +37,20 @@ sez_gdf = gpd.GeoDataFrame(
 )
 #sez_gdf.to_file("aggregated_data/provinces/01_exports/sez_gdf.shp")
 sez_gdf.to_file("extracted_data/geo_data/sez_location.shp")
+
+
+
+#%%
+sez_long_filtered = sez_long[sez_long["latitude"]!=0]
+# %%
+sez_long_gdf = gpd.GeoDataFrame(
+    sez_long_filtered,
+    crs = provinces.crs,
+    geometry= points_from_xy(sez_long_filtered["longitude"],
+                             sez_long_filtered["latitude"])
+)
+
+sez_long_gdf.to_file("extracted_data/sez_data/sez_aggregated_long.geojson", driver="GeoJSON")
 # %%
 # Shows the columns that have missing values
 sez_gdf.isna().sum()
