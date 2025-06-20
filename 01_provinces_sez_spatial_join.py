@@ -13,7 +13,7 @@ provinces_name = pd.read_csv("adm1/adm1_map/provinces_names.csv")
 provinces["shapeName"]=provinces_name["province"]
 
 
-sez_long = pd.read_csv("extracted_data/sez_data/sez_aggregated_long.csv")
+sez_long = pd.read_csv("extracted_data/sez_data/sez_pivot_aggregated_long.csv")
 # %%
 provinces.to_file('adm1/adm1_map/adm1.geojson', driver='GeoJSON')
 
