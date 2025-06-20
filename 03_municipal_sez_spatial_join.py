@@ -12,6 +12,10 @@ import plotly.express as px
 # Reads all the shp map and the aggregated sez data 
 
 geo_municipalities = gpd.read_file("adm2/map_files/adm2_shp.shp")
+municipalities_names = pd.read_csv("adm2/map_files/municipalities_names.csv")
+geo_municipalities["shapeName"] = municipalities_names["municipality"]
+
+geo_municipalities.to_file("adm2/map_files/adm2.geojson", driver="GeoJSON")
 
 sez = pd.read_csv("aggregated_data/sez/sez_aggregated.csv")
 sez = sez[sez['latitude'] != 0]
