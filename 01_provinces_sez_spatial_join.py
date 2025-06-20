@@ -9,7 +9,9 @@ from matplotlib.colors import LinearSegmentedColormap
 # %%
 provinces = gpd.read_file("adm1/adm1_map/adm1.shp")
 sez = pd.read_csv("extracted_data/sez_data/sez_aggregated.csv")
-
+provinces_name = pd.read_csv("adm1/adm1_map/provinces_names.csv")
+provinces["shapeName"]=provinces_name["province"]
+# %%
 provinces.to_file('adm1/adm1_map/adm1.geojson', driver='GeoJSON')
 
 # %%
