@@ -17,6 +17,13 @@ geo_municipalities["shapeName"] = municipalities_names["municipality"]
 
 geo_municipalities.to_file("adm2/map_files/adm2.geojson", driver="GeoJSON")
 
+# geo_municipalities = gpd.read_file("adm2/map_files/adm2.geojson")
+# geo_municipalities["latitude"] = geo_municipalities.geometry.y
+# geo_municipalities["longitude"] = geo_municipalities.geometry.x
+# geo_municipalities.to_csv("adm2/map_files/adm2.csv", index=False)
+
+
+
 sez = pd.read_csv("aggregated_data/sez/sez_aggregated.csv")
 sez = sez[sez['latitude'] != 0]
 
